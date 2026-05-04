@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "js_豆瓣",
-      "name": "🐝豆瓣搜集",
+      "name": "🐝豆瓣推荐",
       "type": 3,
       "api": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
       "ext": "https://api.hgyx.vip/HGBOX/JS/js/drpy.js",
@@ -27,17 +27,6 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "push_agent",
-      "name": "推送|阿里|解析",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 1,
-      "filterable": 1,
-      "ext": "token;desc"
     }
   ],
   "parses": [
