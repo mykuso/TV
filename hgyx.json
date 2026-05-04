@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "js_豆瓣",
-      "name": "🐝豆瓣推介",
+      "name": "🐝豆瓣推荐",
       "type": 3,
       "api": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
       "ext": "https://api.hgyx.vip/HGBOX/JS/js/drpy.js",
