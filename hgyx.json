@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "js_豆瓣",
-      "name": "豆瓣",
+      "name": "🐝豆瓣推介",
       "type": 3,
       "api": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
       "ext": "https://api.hgyx.vip/HGBOX/JS/js/drpy.js",
@@ -26,6 +26,15 @@
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_xml_暴风资源",
+      "name": "🐝暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "searchable": 0,
       "quickSearch": 1
     },
     {
@@ -323,9 +332,6 @@
     }
   ],
   "flags": [
-    "HG独家云",
-    "hgapp",
-    "hgvip",
     "qq",
     "qiyi",
     "iqiyi",
