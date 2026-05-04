@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "js_豆瓣",
-      "name": "🐝豆瓣推荐",
+      "name": "🐝搜集整合",
       "type": 3,
       "api": "https://api.hgyx.vip/HGBOX/JS/lib/drpy.min.js",
       "ext": "https://api.hgyx.vip/HGBOX/JS/js/drpy.js",
@@ -11,9 +11,16 @@
       "filterable": 0
     },
     {
+      "key": "农民影视",
+      "name": "🐝农民影视",
+      "type": 1,
+      "api": "csp_Wwys",
+      "ext": "csp_Wwyscsp_Wwyscsp_Wwys"
+    },
+    {
       "key": "csp_xml_量子资源",
       "name": "🐝量子资源",
-      "type": 1,
+      "type": 3,
       "api": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
@@ -22,7 +29,7 @@
     {
       "key": "csp_xml_非凡资源",
       "name": "🐝非凡资源",
-      "type": 1,
+      "type": 2,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
@@ -30,15 +37,16 @@
     },
     {
       "key": "push_agent",
-      "name": "推送|阿里|解析",
-      "type": 3,
+      "name": "推送解析",
+      "type": 4,
       "api": "csp_PushAgent",
       "searchable": 1,
       "quickSearch": 1,
       "playerType": 1,
       "filterable": 1,
       "ext": "token;desc"
-    }
+    },
+
   ],
   "parses": [
     {
