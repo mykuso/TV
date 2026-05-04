@@ -11,13 +11,6 @@
       "filterable": 0
     },
     {
-      "key": "农民影视",
-      "name": "🐝农民影视",
-      "type": 1,
-      "api": "csp_Wwys",
-      "ext": "csp_Wwyscsp_Wwyscsp_Wwys"
-    },
-    {
       "key": "csp_xml_量子资源",
       "name": "🐝量子资源",
       "type": 3,
@@ -45,8 +38,7 @@
       "playerType": 1,
       "filterable": 1,
       "ext": "token;desc"
-    },
-
+    }
   ],
   "parses": [
     {
