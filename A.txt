@@ -1,26 +1,4 @@
-央视,#genre#
-CCTV1,http://119.123.176.245:8086/hls/2/index.m3u8
-CCTV1 香港,http://cdn6.163189.xyz/163189/cctv1
-CCTV2,http://119.123.176.245:8086/hls/3/index.m3u8
-CCTV3,http://119.123.176.245:8086/hls/4/index.m3u8
-CCTV4,http://119.123.176.245:8086/hls/5/index.m3u8
-CCTV5,http://119.123.176.245:8086/hls/6/index.m3u8
-CCTV5+,http://119.123.176.245:8086/hls/252/index.m3u8
-CCTV6,http://119.123.176.245:8086/hls/7/index.m3u8
-CCTV7,http://119.123.176.245:8086/hls/8/index.m3u8
-CCTV8,http://119.123.176.245:8086/hls/9/index.m3u8
-CCTV9,http://119.123.176.245:8086/hls/10/index.m3u8
-CCTV10,http://119.123.176.245:8086/hls/11/index.m3u8
-CCTV11,http://119.123.176.245:8086/hls/12/index.m3u8
-CCTV12,http://119.123.176.245:8086/hls/13/index.m3u8
-CCTV13,http://119.123.176.245:8086/hls/14/index.m3u8
-CCTV14,http://119.123.176.245:8086/hls/15/index.m3u8
-CCTV15,http://119.123.176.245:8086/hls/16/index.m3u8
-CCTV16,http://119.123.176.245:8086/hls/17/index.m3u8
-CCTV17,http://home.szjim.top:4000/udp/239.77.1.121:5146
-
-
-港台,#genre#
+香港频道,#genre#
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct
 翡翠台 4K,https://o11.163189.xyz/stream/tvb/fct4k/
 翡翠台 广电版,https://o11.163189.xyz/stream/tvb/fct/
@@ -45,45 +23,3 @@ ViuTV,https://cdn10.163189.xyz/stream/163189/viu/
 ViuTV6,https://cdn10.163189.xyz/stream/163189/viu6/
 华丽翡翠台,https://o11.163189.xyz/stream/live/hlt/
 天映频道,https://o11.163189.xyz/stream/live/typd/
-
-香港,#genre#
-翡翠台,http://r.jdshipin.com/qClQf
-翡翠台,http://r.jdshipin.com/qrfbg
-翡翠台,http://r.jdshipin.com/62WM7
-翡翠台,http://r.jdshipin.com/n90gt
-翡翠台,http://r.jdshipin.com/GeWKr
-明珠台,http://r.jdshipin.com/ZQ4kN
-明珠台,http://r.jdshipin.com/jUx8K
-TVB Plus,http://r.jdshipin.com/Nr5jq
-TVB Plus,http://r.jdshipin.com/ndGgS
-无线新闻,http://r.jdshipin.com/CkuBd
-TVB星河,http://r.jdshipin.com/sXuuD
-TVB星河,http://r.jdshipin.com/Voac4
-华丽翡翠台,http://r.jdshipin.com/thuYX
-华丽翡翠台,http://r.jdshipin.com/krMB5
-ViuTV,http://r.jdshipin.com/vSJvl
-ViuTV,http://r.jdshipin.com/TcKr2
-ViuTVsix,http://r.jdshipin.com/vFgDS
-Now新闻台,http://r.jdshipin.com/OeHMu
-HOY TV,http://r.jdshipin.com/sFw4S
-HOY资讯台,http://r.jdshipin.com/XIjta
-凤凰中文,http://r.jdshipin.com/cCCzW
-凤凰资讯,http://r.jdshipin.com/0Rp07
-凤凰香港,http://r.jdshipin.com/yDoTN
-凤凰香港,http://r.jdshipin.com/NfC0f
-澳视澳门,http://r.jdshipin.com/n2YZI
-澳视卫星,http://r.jdshipin.com/QFhCq
-澳门莲花,http://r.jdshipin.com/5DWJk
-重温经典,http://r.jdshipin.com/B7sfp
-广东珠江,http://r.jdshipin.com/sE5vO
-广东体育,http://r.jdshipin.com/LiYdg
-广州综合,http://r.jdshipin.com/iR6Gq
-广州综合,http://r.jdshipin.com/snhya
-广州南国都市,http://r.jdshipin.com/nWaZO
-广州南国都市,http://r.jdshipin.com/LvIQ4
-海峡卫视,http://r.jdshipin.com/WtYt3
-咪咕视频4K,http://r.jdshipin.com/ln4xk
-Astro AOD,https://o11.163189.xyz/stream/live/aod/
-Astro AEC,https://o11.163189.xyz/stream/live/aec/
-爱奇艺,https://o11.163189.xyz/stream/live/iqiyi/
-千禧经典台,https://o11.163189.xyz/stream/live/tvbc/
