@@ -7,8 +7,15 @@
 松視3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 
 传媒频道,#genre#
-松視1台(台版),http://kds.livemoyu.dpdns.org/cr/proxy.php?token=3f4d33beef6d97a115f7034bf30c3f89&expires=1780399024
-松視2台(台版),http://kds.livemoyu.dpdns.org/cr/proxy.php?token=d554a1d1aaea0a9df3e5f4f07b8e9821&expires=1780399024
-松視3台(台版),http://kds.livemoyu.dpdns.org/cr/proxy.php?token=c0ae67f5f4540510ba2ebed44bcb0e7c&expires=1780399024
-惊艳台(台版),http://kds.livemoyu.dpdns.org/cr/proxy.php?token=f8316c53ce7add3da3d2eee5c015b92b&expires=1780399024
-潘朵拉完美(台版),http://kds.livemoyu.dpdns.org/cr/proxy.php?token=47f2fbcee402711592d2501bcfd3638d&expires=1780399024
+松視1频道,http://livek.mzyika.cn/live/e616903fcee126638e2b76650fbf5de6.flv
+松視2频道,http://livek.mzyika.cn/live/d116a93c64633b135fc278a276147801.flv 
+松視3频道,http://livek.mzyika.cn/live/5e1eff17d716405013eccacdf4073b30.flv 
+彩虹E频道,http://livek.mzyika.cn/live/82eae9bcfac169f6bf4cf5b40b74b99d.flv 
+彩虹K频道,http://livek.mzyika.cn/live/7ca0c65bce62f05ddc287289c3d800b9.flv 
+彩虹电影台,http://livek.mzyika.cn/live/0787061a494e49214bec254c3aa55914.flv
+潘朵啦玩美,http://livek.mzyika.cn/live/441d5fd22d3465c66cfb126de20f93bf.flv 
+惊艳电影,http://livek.mzyika.cn/live/799b1593c42c0ee0aa5ffae52ce87617.flv 
+香蕉台HD,http://livek.mzyika.cn/live/5d10134f7f76681ccfca39154c95a3f5.flv
+happyHD,http://livek.mzyika.cn/live/e7c71f3cb18ef6b3c77ae66776b3212c.flv 
+極限電影,http://livek.mzyika.cn/live/c0481fbdddf8ce9f7e9d47794d3168cd.flv 
+乐活频道,http://v-monitor.namitiyu.com/live/a1149ee6276339b4ea1b517502d53d40.flv
