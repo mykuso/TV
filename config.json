@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "js_豆瓣",
-      "name": 搜集整合",
+      "name": "搜集整合",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.js",
