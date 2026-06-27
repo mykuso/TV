@@ -309,13 +309,4 @@ SKY SPORTS RACING,http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/1236227
 美国ESPN8 THE OCHO,https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 美国NBA,http://103.148.44.38:8000/play/a03m/index.m3u8
 美国NBA,http://23.237.104.106:8080/USA_NBA/tracks-v1a1/mono.m3u8
-美国beIN体育,http://23.237.104.106:8080/USA_BEIN/tracks-v1a1/mono.m3u8
-
-测试频道_169169,#genre#,DE=3
-惊艳,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
-潘多啦,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
-彩虹,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
-松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
-松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
-松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
-香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
+美国beIN体育,http://23.237.104.106:8080/USA_BEIN/tracks-v1a1/mono.m3u8
