@@ -1,4 +1,4 @@
-港澳台直播，#genre# 
+香港频道，#genre# 
 翡翠台,https://cdn.qd.je/163189/fct
 翡翠台(字幕),https://cdn.qd.je/163189/fct2
 明珠台(字幕),https://cdn.qd.je/163189/mzt
