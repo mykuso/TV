@@ -1,11 +1,15 @@
-港澳台直播,#genre#
-翡翠台4K(字幕),https://cdn.qd.je/163189/fct4k
+港澳台直播，#genre# 
+翡翠台,https://cdn.qd.je/163189/fct
+翡翠台(字幕),https://cdn.qd.je/163189/fct2
+明珠台(字幕),https://cdn.qd.je/163189/mzt
+无线新闻台,https://cdn.qd.je/163189/wxxw
+翡翠台4K（字幕），https://cdn.qd.je/163189/fct4k
 凤凰中文,https://cdn.qd.je/163189/fhzw
 CCTV1港澳版,https://cdn.qd.je/163189/cctv1
 CCTV13,https://cdn.qd.je/163189/cctv13-2
-TVB Plus(字幕),https://cdn.qd.je/163189/tvbp
-HOY TV,https://cdn.qd.je/163189/hoy
-HOY TV,https://cdn.qd.je/163189/hoy2
+TVB Plus（字幕），https://cdn.qd.je/163189/tvbp
+HOY 电视,https://cdn.qd.je/163189/hoy
+HOY 电视,https://cdn.qd.je/163189/hoy2
 HOY资讯台,https://cdn.qd.je/163189/hoy78
 HOY国际财经台,https://cdn.qd.je/163189/hoy76
 ViuTV,https://cdn.qd.je/163189/viu
@@ -13,69 +17,23 @@ ViuTVsix,https://cdn.qd.je/163189/viu6
 NOW新闻台,https://cdn.qd.je/163189/now
 RTHK31,https://cdn.qd.je/163189/rthk31
 RTHK32,https://cdn.qd.je/163189/rthk32
-澳视澳门,https://cdn.qd.je/163189/asam
-澳视卫星,https://cdn.qd.je/163189/as
-澳门体育,https://cdn.qd.je/163189/amty
-澳门综艺,https://cdn.qd.je/163189/amzy
-澳门莲花,https://cdn.qd.je/163189/amlh
-重温经典,https://cdn.qd.je/163189/cwjd
 凤凰资讯,https://cdn.qd.je/163189/fhzx
 凤凰香港,https://cdn.qd.je/163189/fhhk
 TVB1,https://cdn.qd.je/163189/tvb1
 TVBJ1,https://cdn.qd.je/163189/j1
 翡翠剧集台,https://cdn.qd.je/163189/tvbd
-翡翠台,https://cdn.qd.je/163189/fct
-翡翠台(字幕),https://cdn.qd.je/163189/fct2
-明珠台(字幕),https://cdn.qd.je/163189/mzt
-无线新闻台,https://cdn.qd.je/163189/wxxw
-广东珠江,https://cdn.qd.je/163189/gdzj
-广东体育,https://cdn.qd.je/163189/gdty
-八度空间,https://cdn.qd.je/163189/8tv
-CH5,https://cdn.qd.je/163189/ch5
-CH8,https://cdn.qd.je/163189/ch8
-CHU,https://cdn.qd.je/163189/chu
-龙华电影,https://cdn.qd.je/163189/lhdy
-龙华经典,https://cdn.qd.je/163189/lhjd
-龙华偶像,https://cdn.qd.je/163189/lhox
-龙华日韩,https://cdn.qd.je/163189/lhrh
-龙华戏剧,https://cdn.qd.je/163189/lhxj
-龙华洋片,https://cdn.qd.je/163189/lhyp
-龙华卡通,https://cdn.qd.je/163189/lhkt
 金光布袋戏,https://cdn.qd.je/163189/jgbdx
 华丽翡翠台,https://cdn.qd.je/163189/hlfct
 TVB亚洲武侠,https://cdn.qd.je/163189/yzwx
 TVB娱乐新闻台,https://cdn.qd.je/163189/ylxw
 无线新闻台,https://cdn.qd.je/163189/wxxwt
 TVB星河,https://cdn.qd.je/163189/tvbxh
-海峡卫视,https://cdn.qd.je/163189/hxws
-海峡卫视,https://cdn.qd.je/163189/hxws2
 TVB星河,https://cdn.qd.je/163189/xinghe
-天映新加坡,https://cdn.qd.je/163189/typd
-天映经典,https://cdn.qd.je/163189/ccm
-华丽翡翠台,https://cdn.qd.je/163189/hlt
-华丽翡翠台(硬字幕),https://cdn.qd.je/163189/jade
-华丽翡翠台(新加坡),https://cdn.qd.je/163189/jade2
-Astro AOD,https://cdn.qd.je/163189/aod
-Astro AEC,https://cdn.qd.je/163189/aec
-Astro QJ,https://cdn.qd.je/163189/qj
-Astro欢喜台,https://cdn.qd.je/163189/hxt
-爱奇艺,https://cdn.qd.je/163189/iqiyi
-天映频道,https://cdn.qd.je/163189/typd2
-天映经典,https://cdn.qd.je/163189/ccm2
 TVB星河,https://cdn.qd.je/163189/tvbxh2
 千禧经典台,https://cdn.qd.je/163189/tvbc
 翡翠台(WebVTT字幕),https://cdn.qd.je/163189/fctvtt
 明珠台(WebVTT字幕),https://cdn.qd.je/163189/mztvtt
 TVB Plus(WebVTT字幕),https://cdn.qd.je/163189/tvbpvtt
-黄金华剧台(WebVTT字幕),https://cdn.qd.je/163189/hjhjt
-amc电影台,https://cdn.qd.je/163189/amc
-CinemaWorld,https://cdn.qd.je/163189/cinemaworld
-My Cinema Europe,https://cdn.qd.je/163189/mce
-经典电影台,https://cdn.qd.je/163189/jddyt
-CMusic,https://cdn.qd.je/163189/cmusic
-DreamWorks梦工厂动画,https://cdn.qd.je/163189/dreamworks
-精选动漫台,https://cdn.qd.je/163189/jxdmt
-金光布袋戏,https://cdn.qd.je/163189/jgbdx2
 TVB Plus,https://cdn.qd.je/163189/tvbp2
 凤凰中文Pdtv,http://rihou.cc:555/tv/[Pd]凤凰中文
 凤凰资讯Pdtv,http://rihou.cc:555/tv/[Pd]凤凰资讯
