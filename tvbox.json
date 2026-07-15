@@ -308,6 +308,19 @@
         "成长逆袭"
       ]
     },
+    {
+      "key": "网易云音乐",
+      "name": "🐬网易云｜音乐",
+      "type": 3,
+      "api": "./ext/网易云音乐.py"
+    },
+    {
+      "key": "网易云音乐1",
+      "name": "🐬网易云1｜音乐",
+      "type": 3,
+      "api": "./ext/网易云音乐1.py"
+    }
+  ],
   "parses": [
     {
       "name": "淘片解析",
@@ -738,5 +751,5 @@
   "ijk": [],
   "spider": "./jar/tvbox.jar",
   "wallpaper": "http://tool.teyonds.com/api",
-  "warningText": "注意:如果别人倒卖接口收费的都是骗子"
+  "warningText": "注意:如果别人倒卖海豚影视接口收费的都是骗子,没有qq群微信群，只有tg官方交流群 TG：@hshsjk"
 }
