@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "AQY",
-      "name": "网络搜集",
+      "name": "🐬网络搜集",
       "type": 3,
       "api": "./ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
       "ext": "./ext/20251023002031-6064033c16.js"
