@@ -1,34 +1,6 @@
 {
   "sites": [
     {
-      "key": "AQY",
-      "name": "🐬网络搜集",
-      "type": 3,
-      "api": "./ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
-      "ext": "./ext/20251023002031-6064033c16.js"
-    },
-    {
-      "key": "YK",
-      "name": "🐬优酷视频",
-      "type": 3,
-      "api": "./ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
-      "ext": "./ext/20251023002200-507c3e8aae.js"
-    },
-    {
-      "key": "TX",
-      "name": "🐬腾讯视频",
-      "type": 3,
-      "api": "./ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
-      "ext": "./ext/20251023002144-0e40887294.js"
-    },
-    {
-      "key": "MG",
-      "name": "🐬芒果TV",
-      "type": 3,
-      "api": "./ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
-      "ext": "./ext/20251023002108-a4795930ec.js"
-    },
-    {
       "key": "非凡",
       "name": "🐬非凡影视",
       "type": 1,
@@ -307,18 +279,6 @@
         "女频恋爱",
         "成长逆袭"
       ]
-    },
-    {
-      "key": "网易云音乐",
-      "name": "🐬网易云｜音乐",
-      "type": 3,
-      "api": "./ext/网易云音乐.py"
-    },
-    {
-      "key": "网易云音乐1",
-      "name": "🐬网易云1｜音乐",
-      "type": 3,
-      "api": "./ext/网易云音乐1.py"
     }
   ],
   "parses": [
