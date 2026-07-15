@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "key": "豆瓣",
+      "name": "🐬网络搜集",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/20251023002031-6064033c16.js"
+    },
+{
+  "sites": [
+    {
       "key": "非凡",
       "name": "🐬非凡影视",
       "type": 1,
