@@ -1,7 +1,8 @@
 香港频道,#genre# 
 翡翠台,https://cdn.qd.je/163189/fct
 TVB Plus,https://cdn.qd.je/163189/tvbp2
-无线新闻台,https://cdn.qd.je/163189/wxxw
+无线新闻台1,https://cdn.qd.je/163189/wxxw
+无线新闻台2,https://cdn.qd.je/163189/wxxwt
 翡翠台(字幕),https://cdn.qd.je/163189/fct2
 明珠台(字幕),https://cdn.qd.je/163189/mzt
 翡翠台4K（字幕），https://cdn.qd.je/163189/fct4k
@@ -9,7 +10,6 @@ TVB Plus（字幕），https://cdn.qd.je/163189/tvbp
 翡翠台(WebVTT字幕),https://cdn.qd.je/163189/fctvtt
 明珠台(WebVTT字幕),https://cdn.qd.je/163189/mztvtt
 TVB Plus(WebVTT字幕),https://cdn.qd.je/163189/tvbpvtt
-TVB Plus,https://cdn.qd.je/163189/tvbp2
 凤凰中文,https://cdn.qd.je/163189/fhzw
 凤凰资讯,https://cdn.qd.je/163189/fhzx
 凤凰香港,https://cdn.qd.je/163189/fhhk
@@ -28,7 +28,7 @@ TVBJ1,https://cdn.qd.je/163189/j1
 华丽翡翠台,https://cdn.qd.je/163189/hlfct
 TVB亚洲武侠,https://cdn.qd.je/163189/yzwx
 TVB娱乐新闻台,https://cdn.qd.je/163189/ylxw
-无线新闻台,https://cdn.qd.je/163189/wxxwt
+
 TVB星河,https://cdn.qd.je/163189/tvbxh
 TVB星河,https://cdn.qd.je/163189/xinghe
 TVB星河,https://cdn.qd.je/163189/tvbxh2
