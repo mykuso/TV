@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "AQY",
-      "name": "公众号【白虾工具】搜集整合",
+      "name": "🐬网络整合",
       "type": 3,
       "api": "./ext/01.js",
       "ext": "./ext/02.js"
