@@ -541,10 +541,14 @@
       "url": "https://live.445569.xyz/live.m3u"
     }
   ],
+  "doh": [],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ],
   "proxy": [],
   "rules": [],
   "ijk": [],
-  "spider": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/tvbox.jar",
+  "spider": "https://gh.jasonzeng.dev/https://github.com/mykuso/TV/raw/refs/heads/main/jar/tvbox.jar",
   "wallpaper": "http://tool.teyonds.com/api",
   "warningText": "注意:如果别人倒卖接口收费的都是骗子。"
 }
