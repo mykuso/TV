@@ -544,7 +544,7 @@
   "proxy": [],
   "rules": [],
   "ijk": [],
-  "spider": "./jar/tvbox.jar",
+  "spider": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/tvbox.jar",
   "wallpaper": "http://tool.teyonds.com/api",
   "warningText": "注意:如果别人倒卖接口收费的都是骗子。"
 }
