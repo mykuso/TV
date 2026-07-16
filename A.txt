@@ -1,39 +1,3 @@
-香港频道,#genre# 
-翡翠台,https://cdn.qd.je/163189/fct
-TVB Plus,https://cdn.qd.je/163189/tvbp2
-无线新闻台1,https://cdn.qd.je/163189/wxxw
-无线新闻台2,https://cdn.qd.je/163189/wxxwt
-翡翠台(字幕),https://cdn.qd.je/163189/fct2
-明珠台(字幕),https://cdn.qd.je/163189/mzt
-翡翠台4K（字幕），https://cdn.qd.je/163189/fct4k
-TVB Plus（字幕），https://cdn.qd.je/163189/tvbp
-翡翠台(WebVTT字幕),https://cdn.qd.je/163189/fctvtt
-明珠台(WebVTT字幕),https://cdn.qd.je/163189/mztvtt
-TVB Plus(WebVTT字幕),https://cdn.qd.je/163189/tvbpvtt
-凤凰中文,https://cdn.qd.je/163189/fhzw
-凤凰资讯,https://cdn.qd.je/163189/fhzx
-凤凰香港,https://cdn.qd.je/163189/fhhk
-HOY 电视,https://cdn.qd.je/163189/hoy
-HOY 电视,https://cdn.qd.je/163189/hoy2
-HOY资讯台,https://cdn.qd.je/163189/hoy78
-HOY国际财经台,https://cdn.qd.je/163189/hoy76
-ViuTV,https://cdn.qd.je/163189/viu
-ViuTVsix,https://cdn.qd.je/163189/viu6
-NOW新闻台,https://cdn.qd.je/163189/now
-RTHK31,https://cdn.qd.je/163189/rthk31
-RTHK32,https://cdn.qd.je/163189/rthk32
-TVB1,https://cdn.qd.je/163189/tvb1
-TVBJ1,https://cdn.qd.je/163189/j1
-翡翠剧集台,https://cdn.qd.je/163189/tvbd
-华丽翡翠台,https://cdn.qd.je/163189/hlfct
-TVB亚洲武侠,https://cdn.qd.je/163189/yzwx
-TVB娱乐新闻台,https://cdn.qd.je/163189/ylxw
-
-TVB星河,https://cdn.qd.je/163189/tvbxh
-TVB星河,https://cdn.qd.je/163189/xinghe
-TVB星河,https://cdn.qd.je/163189/tvbxh2
-千禧经典台,https://cdn.qd.je/163189/tvbc
-
 超清央视,#genre# 
 CCTV-1高清,http://guany.myds.me:25852/udp/233.50.200.99:5140
 CCTV-1高清,http://guany.myds.me:25852/udp/233.50.200.130:5140
@@ -484,11 +448,3 @@ CETV4,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 哒啵电竞,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226891/1.m3u8
 哒啵赛事,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226905/1.m3u8
 
-测试频道_169169,#genre#
-惊艳,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
-潘多啦,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
-彩虹,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
-松视1,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
-松视2,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
-松视3,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
-香蕉,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
