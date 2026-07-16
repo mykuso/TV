@@ -1,34 +1,6 @@
 {
   "sites": [
     {
-      "key": "AQY",
-      "name": "🐬网络整合",
-      "type": 3,
-      "api": "./ext/01.js",
-      "ext": "./ext/02.js"
-    },
-    {
-      "key": "YK",
-      "name": "🐬优酷视频",
-      "type": 3,
-      "api": "./ext/01.js",
-      "ext": "./ext/03.js"
-    },
-    {
-      "key": "TX",
-      "name": "🐬腾讯视频",
-      "type": 3,
-      "api": "./ext/01.js",
-      "ext": "./ext/04.js"
-    },
-    {
-      "key": "MG",
-      "name": "🐬芒果TV",
-      "type": 3,
-      "api": "./ext/01.js",
-      "ext": "./ext/05.js"
-    },
-    {
       "key": "非凡",
       "name": "🐬非凡影视",
       "type": 1,
