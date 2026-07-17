@@ -33,22 +33,6 @@
       "quickSearch": 1
     },
     {
-      "key": "暴风资源",
-      "name": "暴风资源",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "暴风资源2",
-      "name": "暴风资源2",
-      "type": 1,
-      "api": "http://bf.xoxowin86cisyap.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "电影天堂",
       "name": "电影天堂",
       "type": 1,
