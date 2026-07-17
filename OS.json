@@ -1,16 +1,40 @@
 {
   "sites": [
     {
-      "key": "360资源ZZ",
-      "name": "360资源ZZ",
+      "key": "豆瓣采集",
+      "name": "豆瓣采集",
+      "type": 0,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "豆瓣采集2",
+      "name": "豆瓣采集2",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "豆瓣采集3",
+      "name": "豆瓣采集3",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "360资源1",
+      "name": "360资源1",
       "type": 1,
       "api": "https://360zyzz.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1
     },
     {
-      "key": "360资源",
-      "name": "360资源",
+      "key": "360资源2",
+      "name": "360资源2",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
@@ -102,30 +126,6 @@
       "name": "豆瓣资源",
       "type": 1,
       "api": "https://dbzy.tv/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "豆瓣采集",
-      "name": "豆瓣采集",
-      "type": 0,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "豆瓣采集2",
-      "name": "豆瓣采集2",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "豆瓣采集3",
-      "name": "豆瓣采集3",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -881,7 +881,7 @@
       ]
     }
   ],
-  "spider": "https://gh-proxy.org/raw.githubusercontent.com/bin1site1/bin1site1.github.io/refs/heads/main/OS.jar",
+  "spider": "./jar/OS.jar",
   "wallpaper": "https://bing.img.run/uhd.php",
   "flags": [
     "youku",
