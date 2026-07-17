@@ -1,31 +1,6 @@
 {
   "sites": [
     {
-      "key": "360资源1",
-      "name": "360资源1",
-      "type": 1,
-      "api": "https://360zyzz.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "360资源2",
-      "name": "360资源2",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "AcFuns",
-      "name": "AcFuns",
-      "type": 4,
-      "api": "https://www.acfuns.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "OK资源",
       "name": "OK资源",
       "type": 0,
@@ -34,26 +9,10 @@
       "quickSearch": 1
     },
     {
-      "key": "U酷资源",
-      "name": "U酷资源",
-      "type": 0,
-      "api": "https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "爱蛋资源",
       "name": "爱蛋资源",
       "type": 1,
       "api": "https://lovedan.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "爱奇艺资源",
-      "name": "爱奇艺资源",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1
     },
