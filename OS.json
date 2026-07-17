@@ -881,7 +881,7 @@
       ]
     }
   ],
-  "spider": "./jar/OS.jar",
+  "spider": "https://gh-proxy.org/raw.githubusercontent.com/mykuso/TV/raw/refs/heads/main/jar/OS.jar",
   "wallpaper": "https://bing.img.run/uhd.php",
   "flags": [
     "youku",
