@@ -9,14 +9,6 @@
       "quickSearch": 1
     },
     {
-      "key": "爱蛋资源",
-      "name": "爱蛋资源",
-      "type": 1,
-      "api": "https://lovedan.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "百度资源",
       "name": "百度资源",
       "type": 1,
