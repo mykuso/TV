@@ -1,3 +1,11 @@
+香港频道,#genre# 
+无线新闻1,http://107.148.225.116:8899/api/flv.txt?token=TG_tvbjack&id=2
+无线新闻2,https://95.ru8.dpdns.org/live/stream-a841a5dc-528c-41d3-958d-86db59cedd03/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
+Now新闻1,http://107.148.225.116:8899/api/flv.txt?token=TG_tvbjack&id=1
+Now新闻2,https://95.ru8.dpdns.org/live/stream-08d3076d-be27-4ef5-bafa-7cb3b8de4504/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
+HOY资讯台,https://95.ru8.dpdns.org/live/stream-8ae57dc0-2781-495d-a046-c0ee541e0038/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
+港台电视32,https://95.ru8.dpdns.org/live/stream-2734e13f-ceb7-4959-9233-c60e99d2dddf/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
+
 超清央视,#genre# 
 CCTV-1高清,http://guany.myds.me:25852/udp/233.50.200.99:5140
 CCTV-1高清,http://guany.myds.me:25852/udp/233.50.200.130:5140
