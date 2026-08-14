@@ -1,37 +1,3 @@
-Skip to content
-mykuso
-TV
-Repository navigation
-Code
-Issues
-Pull requests
-Agents
-Actions
-Projects
-Wiki
-Security and quality
-1
- (1)
-Insights
-Settings
-TV
-/config.json
-Go to file
-t
-T
-mykuso
-mykuso
-Update config.json
-e44becb
- · 
-last month
-TV
-/config.json
-
-Code
-
-Blame
-337 lines (337 loc) · 6.87 KB
 {
   "sites": [
     {
