@@ -28,7 +28,7 @@
       "searchable": 1,
       "quickSearch": 1
     },
-      {
+          {
       "key": "kf",
       "name": "🐝瓜子影视",
       "type": 3,
@@ -39,12 +39,6 @@
       "name": "🐝可可影视",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/可可影视.py"
-    },
-    {
-      "key": "qm",
-      "name": "🐝七猫影视",
-      "type": 3,
-      "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/七猫影视.py"
     },
       "key": "lm",
       "name": "🐝农民影视",
@@ -338,6 +332,9 @@
     }
   ],
   "flags": [
+    "HG独家云",
+    "hgapp",
+    "hgvip",
     "qq",
     "qiyi",
     "iqiyi",
@@ -355,4 +352,3 @@
   "spider": "https://gh.jasonzeng.dev/https://github.com/mykuso/TV/raw/refs/heads/main/jar/1.jar",
   "wallpaper": "https://api.yimian.xyz/img?type=wallpaper"
 }
- TV/config.json at main · mykuso/TV
