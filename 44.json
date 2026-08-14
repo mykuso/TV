@@ -1,7 +1,7 @@
 {
   "sites": [
     {
-      "key": "js_豆瓣",
+      "key": "豆瓣",
       "name": "🐝搜集整合",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
@@ -27,18 +27,6 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "YK",
-      "name": "优酷视频",
-      "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/优酷视频.py"
-    },
-    {
-      "key": "txvm",
-      "name": "腾讯视频",
-      "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/腾讯视频.py"
     },
     {
       "key": "kf",
@@ -96,7 +84,7 @@
     {
       "name": "解析02",
       "type": 0,
-      "url": "https://jx.dmflv.cc/?url=",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
         "flag": [
           "qq",
@@ -126,17 +114,17 @@
     {
       "name": "解析03",
       "type": 0,
-      "url": "https://www.pangujiexi.com/pangu/?url="
+      "url": "https://jiexi.789jiexi.icu:4433/?url="
     },
     {
       "name": "解析04",
       "type": 0,
-      "url": "https://www.pangujiexi.com/pangu/?url="
+      "url": "https://jiexi.789jiexi.com/?url="
     },
     {
       "name": "解析05",
       "type": 0,
-      "url": "https://www.8090.la/8090/?url="
+      "url": "https://jx.yparse.com/index.php?url="
     },
     {
       "name": "解析06",
