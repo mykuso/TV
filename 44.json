@@ -1,11 +1,45 @@
+Skip to content
+mykuso
+TV
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+1
+ (1)
+Insights
+Settings
+TV
+/config.json
+Go to file
+t
+T
+mykuso
+mykuso
+Update config.json
+e44becb
+ · 
+last month
+TV
+/config.json
+
+Code
+
+Blame
+337 lines (337 loc) · 6.87 KB
 {
   "sites": [
     {
-      "key": "豆瓣",
+      "key": "js_豆瓣",
       "name": "🐝搜集整合",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
-      "ext": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.js",
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -33,18 +67,32 @@
       "name": "🐝瓜子影视",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/瓜子影视.py"
+      "searchable": 1,
+      "quickSearch": 1
     },
    {
-      "key": "kf",
+      "key": "kk",
       "name": "🐝可可影视",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/可可影视.py"
+      "searchable": 1,
+      "quickSearch": 1
+    },
+   {
+      "key": "lm",
+      "name": "🐝农民影视",
+      "type": 3,
+      "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/农民影视.py"
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
-      "key": "kf",
+      "key": "qm",
       "name": "🐝七猫影视",
       "type": 3,
       "api": "https://gh.jasonzeng.dev/raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/七猫影视.py"
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "push_agent",
@@ -90,7 +138,7 @@
     {
       "name": "解析02",
       "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "url": "https://jx.dmflv.cc/?url=",
       "ext": {
         "flag": [
           "qq",
@@ -120,17 +168,17 @@
     {
       "name": "解析03",
       "type": 0,
-      "url": "https://jiexi.789jiexi.icu:4433/?url="
+      "url": "https://www.pangujiexi.com/pangu/?url="
     },
     {
       "name": "解析04",
       "type": 0,
-      "url": "https://jiexi.789jiexi.com/?url="
+      "url": "https://www.pangujiexi.com/pangu/?url="
     },
     {
       "name": "解析05",
       "type": 0,
-      "url": "https://jx.yparse.com/index.php?url="
+      "url": "https://www.8090.la/8090/?url="
     },
     {
       "name": "解析06",
@@ -333,6 +381,9 @@
     }
   ],
   "flags": [
+    "HG独家云",
+    "hgapp",
+    "hgvip",
     "qq",
     "qiyi",
     "iqiyi",
@@ -350,3 +401,4 @@
   "spider": "https://gh.jasonzeng.dev/https://github.com/mykuso/TV/raw/refs/heads/main/jar/1.jar",
   "wallpaper": "https://api.yimian.xyz/img?type=wallpaper"
 }
+ TV/config.json at main · mykuso/TV
