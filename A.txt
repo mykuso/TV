@@ -28,6 +28,11 @@ RTHK32,https://fast.hidns.vip/163189/rthk32
 TVB1,https://cdn6.cc.cd/163189/tvb1
 TVBJ1,https://cdn6.cc.cd/163189/j1
 翡翠剧集台,https://cdn6.cc.cd/163189/tvbd
+澳视澳门,https://cdn6.cc.cd/163189/asam
+澳视卫星,https://cdn6.cc.cd/163189/as
+澳门体育,https://cdn6.cc.cd/163189/amty
+澳门综艺,https://cdn6.cc.cd/163189/amzy
+澳门莲花,https://cdn6.cc.cd/163189/amlh
 广东珠江,https://2.fast.hidns.vip/163189/gdzj
 广东体育,https://2.fast.hidns.vip/163189/gdty
 八度空间,https://cdn6.cc.cd/163189/8tv
