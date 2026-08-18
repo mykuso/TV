@@ -11,6 +11,8 @@ HOY资讯台,https://95.ru8.dpdns.org/live/stream-8ae57dc0-2781-495d-a046-c0ee54
 TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 凤凰中文,https://cdn6.cc.cd/163189/fhzw
+凤凰资讯,https://cdn6.cc.cd/163189/fhzx
+凤凰香港,https://cdn6.cc.cd/163189/fhhk
 CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 CCTV13,https://10.fast.hidns.vip/163189/cctv13/
 HOY TV,https://cdn6.cc.cd/163189/hoy
@@ -22,9 +24,6 @@ ViuTVsix,https://10.fast.hidns.vip/163189/viu6/
 NOW新闻台,https://fast.hidns.vip/163189/now
 RTHK31,https://fast.hidns.vip/163189/rthk31
 RTHK32,https://fast.hidns.vip/163189/rthk32
-重温经典,https://cdn6.cc.cd/163189/cwjd
-凤凰资讯,https://cdn6.cc.cd/163189/fhzx
-凤凰香港,https://cdn6.cc.cd/163189/fhhk
 TVB1,https://cdn6.cc.cd/163189/tvb1
 TVBJ1,https://cdn6.cc.cd/163189/j1
 翡翠剧集台,https://cdn6.cc.cd/163189/tvbd
