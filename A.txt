@@ -10,6 +10,10 @@ HOY资讯台,https://95.ru8.dpdns.org/live/stream-8ae57dc0-2781-495d-a046-c0ee54
 明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/
 TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
+翡翠台(WebVTT字幕),https://10.fast.hidns.vip/163189/fct/
+明珠台(WebVTT字幕),https://10.fast.hidns.vip/163189/mzt/
+TVB Plus(WebVTT字幕),https://10.fast.hidns.vip/163189/tvbp/
+黄金华剧台(WebVTT字幕),https://10.fast.hidns.vip/163189/hjhjt/
 凤凰中文,https://cdn6.cc.cd/163189/fhzw
 凤凰资讯,https://cdn6.cc.cd/163189/fhzx
 凤凰香港,https://cdn6.cc.cd/163189/fhhk
@@ -27,6 +31,12 @@ RTHK32,https://fast.hidns.vip/163189/rthk32
 TVB1,https://cdn6.cc.cd/163189/tvb1
 TVBJ1,https://cdn6.cc.cd/163189/j1
 翡翠剧集台,https://cdn6.cc.cd/163189/tvbd
+华丽翡翠台,https://cdn6.cc.cd/163189/hlfct
+TVB亚洲武侠,https://cdn6.cc.cd/163189/yzwx
+TVB娱乐新闻台,https://cdn6.cc.cd/163189/ylxw
+TVB星河,https://cdn6.cc.cd/163189/tvbxh
+TVB星河,https://10.fast.hidns.vip/163189/xinghe/
+TVB星河,https://cdn3.indevs.in/stream/live/tvbxh/
 澳视澳门,https://cdn6.cc.cd/163189/asam
 澳视卫星,https://cdn6.cc.cd/163189/as
 澳门体育,https://cdn6.cc.cd/163189/amty
@@ -47,13 +57,6 @@ CHU,https://cdn6.cc.cd/163189/chu
 龙华卡通,https://8.fast.hidns.vip/163189/lhkt
 金光布袋戏,https://cdn3.indevs.in/stream/live/jgbdx/
 金光布袋戏2,https://cdn12.178.indevs.in/163189/jgbdx
-华丽翡翠台,https://cdn6.cc.cd/163189/hlfct
-TVB亚洲武侠,https://cdn6.cc.cd/163189/yzwx
-TVB娱乐新闻台,https://cdn6.cc.cd/163189/ylxw
-无线新闻台2,https://cdn6.cc.cd/163189/wxxwt
-TVB星河,https://cdn6.cc.cd/163189/tvbxh
-TVB星河,https://10.fast.hidns.vip/163189/xinghe/
-TVB星河,https://cdn3.indevs.in/stream/live/tvbxh/
 天映新加坡,https://10.fast.hidns.vip/163189/typd/
 天映经典,https://10.fast.hidns.vip/163189/ccm/
 华丽翡翠台,https://cdn3.indevs.in/stream/live/hlt/
@@ -64,10 +67,6 @@ Astro AEC,https://cdn3.indevs.in/stream/live/aec/
 Astro QJ,https://cdn3.indevs.in/stream/live/qj/
 Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
 千禧经典台,https://cdn3.indevs.in/stream/live/tvbc/
-翡翠台(WebVTT字幕),https://10.fast.hidns.vip/163189/fct/
-明珠台(WebVTT字幕),https://10.fast.hidns.vip/163189/mzt/
-TVB Plus(WebVTT字幕),https://10.fast.hidns.vip/163189/tvbp/
-黄金华剧台(WebVTT字幕),https://10.fast.hidns.vip/163189/hjhjt/
 精选动漫台,https://cdn12.178.indevs.in/163189/jxdmt
 
 超清央视,#genre# 
@@ -762,4 +761,3 @@ CETV4,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 午夜时刻5,http://myott.tv/stream/S8JK2Q2BVB/183.m3u8
 午夜时刻7,http://live.mycamtv.com/asian.m3u8
 午夜时刻8,http://live.mycamtv.com/bigass.m3u8
-
