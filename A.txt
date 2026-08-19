@@ -6,9 +6,9 @@ HOY资讯台,https://95.ru8.dpdns.org/live/stream-8ae57dc0-2781-495d-a046-c0ee54
 港台电视32,https://95.ru8.dpdns.org/live/stream-2734e13f-ceb7-4959-9233-c60e99d2dddf/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
 
 极速港台,#genre#
-翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/
-明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/
-TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/
+翡翠台,https://cdn3.indevs.in/stream/tvb/fct/
+明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
+TVB Plus,https://cdn3.indevs.in/stream/tvb/tvbp/
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 翡翠台(WebVTT字幕),https://10.fast.hidns.vip/163189/fct/
 明珠台(WebVTT字幕),https://10.fast.hidns.vip/163189/mzt/
