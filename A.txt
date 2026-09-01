@@ -1,3 +1,17 @@
+港乐翻唱,#genre#
+林咏诗翻唱一,http://rihou.cc:555/tv/林咏诗翻唱一
+林咏诗翻唱二,http://rihou.cc:555/tv/林咏诗翻唱二
+林咏诗翻唱三,http://rihou.cc:555/tv/林咏诗翻唱三
+嘉欣粤翻唱一,http://rihou.cc:555/tv/嘉欣粤翻唱一
+嘉欣粤翻唱二,http://rihou.cc:555/tv/嘉欣粤翻唱二
+嘉欣粤翻唱三,http://rihou.cc:555/tv/嘉欣粤翻唱三
+嘉欣粤翻唱四,http://rihou.cc:555/tv/嘉欣粤翻唱四
+嘉欣粤翻唱五,http://rihou.cc:555/tv/嘉欣粤翻唱五
+港风粤语女一,http://rihou.cc:555/tv/港风粤语女一
+港风粤语女二,http://rihou.cc:555/tv/港风粤语女二
+港风粤语女三,http://rihou.cc:555/tv/港风粤语女三
+港风粤语女四,http://rihou.cc:555/tv/港风粤语女四
+港风粤语女五,http://rihou.cc:555/tv/港风粤语女五
 
 香港新闻,#genre# 
 无线新闻,https://95.ru8.dpdns.org/live/stream-a841a5dc-528c-41d3-958d-86db59cedd03/index.m3u8?u=asdf&p=f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b
