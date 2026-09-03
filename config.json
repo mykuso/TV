@@ -1,18 +1,18 @@
 {
   "sites": [
     {
-      "key": "js_豆瓣",
-      "name": "🐝搜集整合",
+      "key": "豆瓣推荐",
+      "name": "搜集整合",
       "type": 3,
-      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.js",
+      "api": "https://gh.xmly.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.min.js",
+      "ext": "https://gh.xmly.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/drpy.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
     },
     {
       "key": "csp_xml_量子资源",
-      "name": "🐝量子资源",
+      "name": "量子资源",
       "type": 1,
       "api": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
@@ -21,7 +21,7 @@
     },
     {
       "key": "csp_xml_非凡资源",
-      "name": "🐝非凡资源",
+      "name": "非凡资源",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
@@ -30,7 +30,7 @@
     },
     {
       "key": "push_agent",
-      "name": "推送|阿里|解析",
+      "name": "推送解析",
       "type": 3,
       "api": "csp_PushAgent",
       "searchable": 1,
@@ -130,7 +130,14 @@
             "proxy://do=live&type=txt&ext=aHR0cDovL2FwaS5oZ3l4LnZpcC9UVkJveC96Yi5qc29u"
           ]
         }
-      ]
+      ],
+      "url": "https://gh.xmly.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/A.txt",
+      "name": "电视直播"
+    },
+    {
+      "name": "成人直播",
+      "type": 0,
+      "url": "https://gh.xmly.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/X.txt"
     }
   ],
   "doh": [],
@@ -332,6 +339,6 @@
     "哔哩",
     "芒果"
   ],
-  "spider": "https://gh.jasonzeng.dev/https://github.com/mykuso/TV/raw/refs/heads/main/jar/1.jar",
+  "spider": "https://gh.xmly.dev/https://github.com/mykuso/TV/raw/refs/heads/main/jar/1.jar",
   "wallpaper": "https://api.yimian.xyz/img?type=wallpaper"
 }
