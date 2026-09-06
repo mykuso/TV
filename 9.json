@@ -113,21 +113,11 @@
       "category": "综合"
     },
     {
-      "key": "枫叶影院",
+      "key": "fyyy",
       "name": "枫叶影院.py",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/枫叶影院.py",
       "changeable": 0,
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "category": "综合"
-    },
-    {
-      "key": "qmvm",
-      "name": "七猫影视.py",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/七猫影视.py",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
@@ -398,16 +388,16 @@
   ],
   "lives": [
     {
-      "name": "易发TV",
+      "name": "电视直播",
       "type": 0,
-      "ua": "okhttp",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
+      "ua": "okhttp/5.3.2",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/A.txt"
     },
     {
       "name": "电视直播",
       "type": 0,
       "ua": "okhttp/5.3.2",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/A.txt"
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/X.txt"
     }
   ],
   "doh": [
