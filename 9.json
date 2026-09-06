@@ -11,7 +11,7 @@
       "changeable": 0,
       "category": "综合"
     },
-        {
+    {
       "key": "GZ",
       "name": "瓜子影视.py",
       "type": 3,
@@ -134,16 +134,6 @@
       "category": "综合"
     },
     {
-      "key": "qmvm",
-      "name": "星芽短剧.py",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/星芽短剧.py",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "category": "综合"
-    },
-    {
       "key": "nmvm",
       "name": "农民影视.py",
       "type": 3,
@@ -174,20 +164,40 @@
       "category": "综合"
     },
     {
-      "key": "cjzh",
-      "name": "采集聚合.py",
+      "key": "ylys",
+      "name": "永乐影视.py",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/采集聚合.py",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/永乐影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "category": "综合"
+   },
+    {
+      "key": "hgdj",
+      "name": "红果短剧.py",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/红果短剧.py",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
       "category": "综合"
     },
     {
-      "key": "ylys",
-      "name": "永乐影视.py",
+      "key": "qmvm",
+      "name": "星芽短剧.py",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/ext/永乐影视.py",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/星芽短剧.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "category": "综合"
+    },
+    {
+      "key": "cjzh",
+      "name": "采集聚合.py",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/采集聚合.py",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
