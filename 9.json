@@ -11,6 +11,16 @@
       "changeable": 0,
       "category": "综合"
     },
+        {
+      "key": "GZ",
+      "name": "瓜子影视.py",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/瓜子影视.py",
+      "ext": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "category": "综合"
+    },
     {
       "key": "qmyy",
       "name": "七猫影视.py",
@@ -37,16 +47,6 @@
       "name": "韩剧巴士.py",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/韩剧巴士.py",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "category": "综合"
-    },
-    {
-      "key": "GZ",
-      "name": "瓜子影视.py",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/瓜子影视.py",
       "ext": "",
       "searchable": 1,
       "quickSearch": 1,
