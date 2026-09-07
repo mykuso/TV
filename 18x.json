@@ -2,7 +2,7 @@
   "sites": [
 
     {
-      "key": "乐播资源",
+      "key": "lkhgh",
       "name": "乐播资源",
       "type": 0,
       "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
@@ -11,7 +11,7 @@
       "filterable": 1
     },
     {
-      "key": "番号资源",
+      "key": "ujdfr",
       "name": "番号资源",
       "type": 0,
       "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
@@ -20,7 +20,7 @@
       "filterable": 1
     },
     {
-      "key": "大地资源",
+      "key": "dgdtr",
       "name": "大地资源",
       "type": 0,
       "api": "https://dadiapi.com/api.php",
@@ -29,7 +29,7 @@
       "filterable": 1
     },
     {
-      "key": "656b916e-94fe-5b57-b300-80ccc1be1cea",
+      "key": "80e1cea",
       "name": "辣椒资源",
       "type": 1,
       "api": "https://apilj.com/api.php/provide/vod/at/json/",
@@ -38,7 +38,7 @@
       "filterable": 1
     },
     {
-      "key": "b0684274-ce9e-5d4f-bf54-f61afbdaf49d",
+      "key": "daf49d",
       "name": "玉兔资源",
       "type": 1,
       "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
@@ -47,7 +47,7 @@
       "filterable": 1
     },
     {
-      "key": "70f4c18c-3276-50f1-adaa-85614f5441eb",
+      "key": "70f1eb",
       "name": "森林资源",
       "type": 1,
       "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
@@ -56,7 +56,7 @@
       "filterable": 1
     },
     {
-      "key": "a93050f8-e282-521d-9c92-cdbbf5add205",
+      "key": "add205",
       "name": "色猫资源",
       "type": 1,
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
@@ -65,7 +65,7 @@
       "filterable": 1
     },
     {
-      "key": "ffc08730-71ad-56b8-a153-e2e563e6d64c",
+      "key": "e6d64c",
       "name": "奶香资源",
       "type": 1,
       "api": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
@@ -74,7 +74,7 @@
       "filterable": 1
     },
     {
-      "key": "玉兔资源",
+      "key": "dfbhgdgv",
       "name": "玉兔资源",
       "type": 1,
       "api": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
@@ -83,8 +83,8 @@
       "filterable": 0
     },
     {
-      "key": "老色逼资源站",
-      "name": "老色逼资源站",
+      "key": "fsdgvb",
+      "name": "老色逼资源",
       "type": 1,
       "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -92,7 +92,7 @@
       "filterable": 1
     },
     {
-      "key": "155资源",
+      "key": "khgy",
       "name": "155资源",
       "type": 1,
       "api": "https://155api.com/api.php/provide/vod/",
@@ -101,7 +101,7 @@
       "filterable": 0
     },
     {
-      "key": "滴滴资源",
+      "key": "jkguyj",
       "name": "滴滴资源",
       "type": 1,
       "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
@@ -110,7 +110,7 @@
       "filterable": 0
     },
     {
-      "key": "鸡坤资源",
+      "key": "tsety",
       "name": "鸡坤资源",
       "type": 1,
       "api": "https://jkunzyapi.com/api.php/provide/vod/",
