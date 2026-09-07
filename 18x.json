@@ -83,10 +83,64 @@
       "filterable": 0
     },
     {
+      "key": "dfbhv",
+      "name": "玉兔资源2",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "dfgv",
+      "name": "奶香资源",
+      "type": 1,
+      "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "dkfgv",
+      "name": "桃花资源",
+      "type": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "dskfgv",
+      "name": "金坤资源",
+      "type": 1,
+      "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "fsdgvb",
       "name": "老色逼资源",
       "type": 1,
       "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fddb",
+      "name": "越资源云",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fde5db",
+      "name": "探探资源",
+      "type": 1,
+      "api": "https://dadiapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
