@@ -11,6 +11,23 @@
       "changeable": 0,
       "category": "综合"
     },
+      "key": "csp_xml_量子资源",
+      "name": "量子资源",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_xml_非凡资源",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+   },
     {
       "key": "GZ",
       "name": "瓜子影视.py",
@@ -392,12 +409,6 @@
       "type": 0,
       "ua": "okhttp/5.3.2",
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/A.txt"
-    },
-    {
-      "name": "电视直播",
-      "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/X.txt"
     }
   ],
   "doh": [
@@ -685,7 +696,7 @@
       ]
     }
   ],
-  "notice": "欢迎使用！",
+  "notice": "",
   "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/spider.jar",
   "wallpaper": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/img/vip.jpg",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
