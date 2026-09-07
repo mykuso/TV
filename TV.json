@@ -270,7 +270,9 @@
             "https://live.zbds.top/tv/iptv6.txt"
           ]
         }
-      ]
+      ],
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/A.txt",
+      "name": "电视直播"
     }
   ],
   "doh": [
