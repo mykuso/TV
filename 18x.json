@@ -2,8 +2,8 @@
   "sites": [
 
     {
-      "key": "乐播",
-      "name": "乐播",
+      "key": "乐播资源",
+      "name": "乐播资源",
       "type": 0,
       "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
       "searchable": 1,
@@ -20,8 +20,8 @@
       "filterable": 1
     },
     {
-      "key": "大地",
-      "name": "大地",
+      "key": "大地资源",
+      "name": "大地资源",
       "type": 0,
       "api": "https://dadiapi.com/api.php",
       "searchable": 1,
@@ -30,7 +30,7 @@
     },
     {
       "key": "656b916e-94fe-5b57-b300-80ccc1be1cea",
-      "name": "辣椒",
+      "name": "辣椒资源",
       "type": 1,
       "api": "https://apilj.com/api.php/provide/vod/at/json/",
       "searchable": 1,
@@ -39,7 +39,7 @@
     },
     {
       "key": "b0684274-ce9e-5d4f-bf54-f61afbdaf49d",
-      "name": "玉兔",
+      "name": "玉兔资源",
       "type": 1,
       "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -48,7 +48,7 @@
     },
     {
       "key": "70f4c18c-3276-50f1-adaa-85614f5441eb",
-      "name": "森林",
+      "name": "森林资源",
       "type": 1,
       "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -56,17 +56,8 @@
       "filterable": 1
     },
     {
-      "key": "9d8974ba-ddfc-5e53-b008-29f37e5fc88b",
-      "name": "155",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "a93050f8-e282-521d-9c92-cdbbf5add205",
-      "name": "色猫",
+      "name": "色猫资源",
       "type": 1,
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
       "searchable": 1,
@@ -75,7 +66,7 @@
     },
     {
       "key": "ffc08730-71ad-56b8-a153-e2e563e6d64c",
-      "name": "奶香",
+      "name": "奶香资源",
       "type": 1,
       "api": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
