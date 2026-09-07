@@ -23,7 +23,7 @@
       "key": "非凡资源2",
       "name": "非凡资源2",
       "type": 1,
-      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "api": "http://ffzy5.tv/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
