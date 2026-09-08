@@ -819,6 +819,3 @@ CETV4,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 哈哈炫动,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226703/1.m3u8
 哒啵电竞,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226891/1.m3u8
 哒啵赛事,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226905/1.m3u8
-
-午夜时刻7,http://live.mycamtv.com/asian.m3u8
-午夜时刻8,http://live.mycamtv.com/bigass.m3u8
