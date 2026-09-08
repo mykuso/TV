@@ -590,8 +590,7 @@
   ],
   "notice": "",
   "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/spider.jar",
-  "wallpaper": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/img/vip.jpg",
-  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
+  "wallpaper": "https://bing.img.run/uhd.php",
   "flags": [
     "youku",
     "优酷",
