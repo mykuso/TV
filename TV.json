@@ -603,7 +603,7 @@
       ]
     }
   ],
-  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/A.jar",
+  "spider": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/spider.jar",
   "wallpaper": "https://bing.img.run/uhd.php",
   "flags": [
     "youku",
