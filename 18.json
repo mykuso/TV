@@ -40,17 +40,6 @@
       "quickSearch": 1,
       "category": "综合"
     },
-        {
-      "key": "maomi",
-      "name": "猫咪AV.py",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY2/猫咪AV.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "",
-      "category": "综合"
-    },
     {
       "key": "8x8x",
       "name": "8x8x.py",
