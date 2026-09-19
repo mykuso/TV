@@ -1,13 +1,12 @@
 {
   "sites": [
     {
-      "key": "lkhgh",
+      "key": "eytjew",
       "name": "乐播资源",
-      "type": 0,
+      "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "quickSearch": 1
     },
     {
       "key": "ujdfr",
@@ -206,14 +205,6 @@
       "name": "杏吧资源",
       "type": 1,
       "api": "https://xingba111.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "eytjew",
-      "name": "乐播资源",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
