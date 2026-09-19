@@ -13,7 +13,7 @@
       "key": "ujdfr",
       "name": "番号资源",
       "type": 0,
-      "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
+      "api": "http://fhapi9.com/api.php/provide/vod?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -83,7 +83,7 @@
     },
     {
       "key": "dfgv",
-      "name": "奶香资源",
+      "name": "奶香香资源",
       "type": 1,
       "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -94,7 +94,7 @@
       "key": "dkfgv",
       "name": "桃花资源",
       "type": 1,
-      "api": "https://thzy1.me/api.php/provide/vod/at/xml",
+      "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -139,10 +139,140 @@
       "key": "khgy",
       "name": "155资源",
       "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/",
+      "api": "https://155api.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "gsbs",
+      "name": "越南资源",
+      "type": 1,
+      "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+
+    {
+      "key": "Xgdx",
+      "name": "X细胞资源",
+      "type": 1,
+      "api": "https://www.xxibaozyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "dnzih",
+      "name": "大奶子资源",
+      "type": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "fhftX",
+      "name": "精品X资源",
+      "type": 1,
+      "api": "https://www.jingpinx.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "tyjhee",
+      "name": "黄色仓库",
+      "type": 1,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "rqwqa",
+      "name": "百花资源",
+      "type": 1,
+      "api": "https://bhziyuan.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "u6re",
+      "name": "辣椒资源2",
+      "type": 1,
+      "api": "http://lajiaozy.com/api.php/provide/vod?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "asdafaw",
+      "name": "杏吧资源",
+      "type": 1,
+      "api": "https://xingba111.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "eytjew",
+      "name": "乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "fejii",
+      "name": "番茄资源",
+      "type": 1,
+      "api": "https://fqzy.me//api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "CXQAD",
+      "name": "鲨鱼资源",
+      "type": 1,
+      "api": "https://shayuapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "91dcsC",
+      "name": "91麻豆资源",
+      "type": 1,
+      "api": "http://91md.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "CKasc",
+      "name": "CK百货资源",
+      "type": 1,
+      "api": "https://ckbh1.xyz/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+
+    {
+      "key": "doudou",
+      "name": "豆豆资源",
+      "type": 1,
+      "api": "https://doudouzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "ppolaX",
+      "name": "黑料X资源",
+      "type": 1,
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "xcass",
+      "name": "香蕉资源",
+      "type": 1,
+      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "jkguyj",
@@ -157,7 +287,7 @@
       "key": "tsety",
       "name": "鸡坤资源",
       "type": 1,
-      "api": "https://jkunzyapi.com/api.php/provide/vod/",
+      "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -496,6 +626,9 @@
       ]
     }
   ],
+  "notice": "",
+  "spider": "https://gh.xmly.dev/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/spider.jar",
+  "wallpaper": "https://bing.img.run/uhd.php",
   "flags": [
     "youku",
     "qq",
