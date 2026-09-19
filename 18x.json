@@ -4,7 +4,7 @@
       "key": "lkhgh",
       "name": "乐播资源",
       "type": 0,
-      "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
+      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -13,7 +13,7 @@
       "key": "ujdfr",
       "name": "番号资源",
       "type": 0,
-      "api": "http://fhapi9.com/api.php/provide/vod?ac=list",
+      "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -22,7 +22,7 @@
       "key": "dgdtr",
       "name": "大地资源",
       "type": 0,
-      "api": "https://dadiapi.com/api.php",
+      "api": "https://dadiapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -31,7 +31,7 @@
       "key": "80e1cea",
       "name": "辣椒资源",
       "type": 1,
-      "api": "https://apilj.com/api.php/provide/vod/at/json/",
+      "api": "https://apilj.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -103,7 +103,7 @@
       "key": "dskfgv",
       "name": "金坤资源",
       "type": 1,
-      "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
+      "api": "https://www.jkunzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -121,7 +121,7 @@
       "key": "fddb",
       "name": "越资源云",
       "type": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -130,7 +130,7 @@
       "key": "fde5db",
       "name": "探探资源",
       "type": 1,
-      "api": "https://dadiapi.com/api.php/provide/vod/at/xml",
+      "api": "https://dadiapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -173,7 +173,7 @@
       "key": "fhftX",
       "name": "精品X资源",
       "type": 1,
-      "api": "https://www.jingpinx.com/api.php/provide/vod",
+      "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -181,7 +181,7 @@
       "key": "tyjhee",
       "name": "黄色仓库",
       "type": 1,
-      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
+      "api": "https://hsckzy888.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -197,7 +197,7 @@
       "key": "u6re",
       "name": "辣椒资源2",
       "type": 1,
-      "api": "http://lajiaozy.com/api.php/provide/vod?ac=list",
+      "api": "http://lajiaozy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -229,7 +229,7 @@
       "key": "CXQAD",
       "name": "鲨鱼资源",
       "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod",
+      "api": "https://shayuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -237,7 +237,7 @@
       "key": "91dcsC",
       "name": "91麻豆资源",
       "type": 1,
-      "api": "http://91md.me/api.php/provide/vod",
+      "api": "http://91md.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
