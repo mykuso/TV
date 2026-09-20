@@ -27,6 +27,14 @@
       "filterable": 1
     },
     {
+      "key": "u6re",
+      "name": "辣椒资源2",
+      "type": 1,
+      "api": "http://lajiaozy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "70f1eb",
       "name": "森林资源",
       "type": 1,
@@ -67,15 +75,6 @@
       "name": "玉兔资源2",
       "type": 1,
       "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "dfgv",
-      "name": "奶香香资源",
-      "type": 1,
-      "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -175,14 +174,6 @@
       "quickSearch": 1
     },
     {
-      "key": "u6re",
-      "name": "辣椒资源2",
-      "type": 1,
-      "api": "http://lajiaozy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "asdafaw",
       "name": "杏吧资源",
       "type": 1,
@@ -236,14 +227,6 @@
       "name": "黑料X资源",
       "type": 1,
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "xcass",
-      "name": "香蕉资源",
-      "type": 1,
-      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1
     },
