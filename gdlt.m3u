@@ -331,13 +331,6 @@ http://120.87.19.109:80/PLTV/88888973/224/3221226358/100001000000000600000000014
 http://120.87.19.109:80/PLTV/88888973/224/3221226605/10000100000000060000000001565708_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xrakgNzbBuZb9vE9HF2GwxwWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 
 
-
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/兵团卫视.png" group-title="新疆频道",兵团卫视
-http://120.87.19.109:80/PLTV/88888973/224/3221225696/10000100000000060000000000334045_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xmRMiroXzqGLRSoFEMCk9RwWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东教育.png" group-title="山东频道",山东教育卫视
-http://120.87.19.109:80/PLTV/88888973/224/3221225760/10000100000000060000000000336017_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xI2a+0jNNPGEgjm5kZK/qSQWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-id="谍战剧场" tvg-name="谍战剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/谍战剧场.png" group-title="IPTV频道",谍战剧场
-http://120.87.19.109:80/PLTV/88888973/224/3221226103/10000100000000060000000000915850_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xcJdPZlViEIlmfjFa1TrI/AWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="国学" tvg-name="国学" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/国学.png" group-title="IPTV频道",国学
 http://120.87.19.109:80/PLTV/88888973/224/3221226152/10000100000000060000000001091886_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xLmjl3wapWOmUFufQ092DbAWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="经典电影" tvg-name="经典电影" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/经典电影.png" group-title="IPTV频道",经典电影
@@ -364,6 +357,4 @@ http://120.87.19.109:80/PLTV/88888973/224/3221225704/100001000000000600000000003
 http://120.87.19.109:80/PLTV/88888973/224/3221226107/10000100000000060000000000916409_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xFRvH7tTazEOh2VrmQaDwZQWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 #EXTINF:-1 tvg-id="IPTV8+" tvg-name="IPTV8+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/IPTV8+.png" group-title="IPTV频道",IPTV8+
 http://120.87.19.109:80/PLTV/88888973/224/3221226109/10000100000000060000000000916552_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xKRuQBUi2Kj6p2qh4Y4F56wWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
-#EXTINF:-1 tvg-id="影视推荐" tvg-name="影视推荐" group-title="IPTV频道",影视推荐
-http://120.87.19.109:80/PLTV/88888973/224/3221226642/10000100000000060000000001651528_0.smil/01.m3u8?fmt=ts2hls,244,01.m3u8&accountinfo=UoQbCSdhOfs+Fhzpjb+WON1faRQ9pU15SBx6EULzJM/q63EjPL5/UXSVfEKzDq3xFdrNhysJZELyENzfIw6pSwWZ1F4+6A1eDkDeh5XZlpvpn23wIF+ldb6dnBPa8zHj,END&tenantId=8601
 
