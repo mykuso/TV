@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# 海角爱 (haijiaolove.xyz) — 修复版 2026-10-09
+
 import re
 import json
 import base64
@@ -28,6 +30,9 @@ CATEGORIES = {
     "hjhj": "合集大全", "hjrq": "热剧推荐", "hjyc": "原创精选",
 }
 WP_CAT = {"hjhj": 357, "hjrq": 355, "hjyc": 323}
+ENCRYPT_HEAD = 65536          # 前 64KB 为 AES-CTR 加密, 其余明文
+CHUNK = 4 * 1048576           # 上游单次拉取 4MB
+
 
 _SBOX = bytes([
     0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, 0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76,
@@ -145,6 +150,8 @@ class Spider(_Base):
         self._port = 0
         self._start_proxy()
 
+    # ---------------- 本地回环代理 (真流式, 低内存) ----------------
+
     def _start_proxy(self):
         if self._px:
             return
@@ -166,57 +173,71 @@ class Spider(_Base):
                         self.send_error(404)
                         return
                     ps = _pqs(q.query)
-                    u = _uq(ps['u'][0])
-                    k = _uq(ps['k'][0])
-                    total = int(ps.get('s', ['0'])[0]) or 0
+                    u = _uq(ps.get('u', [''])[0])
+                    k = _uq(ps.get('k', [''])[0])
+                    ref = _uq(ps.get('r', [''])[0])
+                    try:
+                        total = int(ps.get('s', ['0'])[0]) or 0
+                    except Exception:
+                        total = 0
+                    if not u or not k:
+                        self.send_error(400)
+                        return
+                    if not total:
+                        total = outer._upstream_size(u, ref)
                     rng = self.headers.get('Range')
-                    outer._log('REQ %s %s' % (rng or '-', u[:70]))
-                    s, e = 0, total - 1
+                    s, e = 0, (total - 1) if total else None
                     if rng:
                         m = re.match(r'bytes=(\d+)-(\d*)', rng)
                         if m:
                             s = int(m.group(1))
                             if m.group(2):
-                                e = int(m.group(2))
+                                e2 = int(m.group(2))
+                                e = e2 if e is None else min(e, e2)
+                    outer._log('REQ %s %s (total=%d)' % (rng or '-', u[:70], total))
                     if total and s >= total:
                         self.send_error(416)
                         return
-                    if total:
-                        e = min(e, total - 1)
+                    if e is None and total:
+                        e = total - 1
                     self.send_response(206 if rng else 200)
-                    if total:
+                    if total and e is not None:
                         self.send_header('Content-Range', 'bytes %d-%d/%d' % (s, e, total))
                         self.send_header('Content-Length', str(e - s + 1))
                     self.send_header('Accept-Ranges', 'bytes')
                     self.send_header('Content-Type', 'video/mp4')
-                    self.send_header('Connection', 'keep-alive')
+                    conn_close = e is None  # 未知长度时不能 keep-alive
+                    self.send_header('Connection', 'close' if conn_close else 'keep-alive')
                     self.end_headers()
                     key = hashlib.md5(k.encode()).hexdigest().encode()
                     iv = int.from_bytes(key[:16], 'big')
-                    if s < 65536:
-                        a = s
-                        b = min(e, 65535)
-                        raw = outer._http_get_bin(u, 'bytes=%d-%d' % (a, b))
+                    sent = 0
+                    if s < ENCRYPT_HEAD:
+                        a0 = s // 16 * 16
+                        a1 = ENCRYPT_HEAD - 1 if (e is None or e >= ENCRYPT_HEAD - 1) else e
+                        raw = outer._http_get_bin(u, 'bytes=%d-%d' % (a0, a1), referer=ref)
                         if raw:
-                            a0 = a // 16 * 16
-                            if a0 < a:
-                                raw0 = outer._http_get_bin(u, 'bytes=%d-%d' % (a0, b))
-                                if raw0:
-                                    plain = _aes_ctr_decrypt(key, (iv + a0 // 16).to_bytes(16, 'big'), raw0)
-                                    self.wfile.write(plain[a - a0:])
-                            else:
-                                plain = _aes_ctr_decrypt(key, (iv + a // 16).to_bytes(16, 'big'), raw)
-                                self.wfile.write(plain)
-                    if e >= 65536:
-                        cur = max(s, 65536)
-                        while cur <= e:
-                            end = min(cur + 1048576 - 1, e)
-                            chunk = outer._http_get_bin(u, 'bytes=%d-%d' % (cur, end))
-                            if not chunk:
-                                break
-                            self.wfile.write(chunk)
-                            cur = end + 1
-                except Exception:
+                            plain = _aes_ctr_decrypt(key, (iv + a0 // 16).to_bytes(16, 'big'), raw)
+                            buf = plain[s - a0:a1 - a0 + 1]
+                            self.wfile.write(buf)
+                            sent += len(buf)
+                            self.wfile.flush()
+                    cur = max(s, ENCRYPT_HEAD)
+                    while e is None or cur <= e:
+                        end = e if (e is not None and e - cur < CHUNK) else cur + CHUNK - 1
+                        chunk = outer._http_get_bin(u, 'bytes=%d-%d' % (cur, end), referer=ref)
+                        if not chunk:
+                            break
+                        self.wfile.write(chunk)
+                        sent += len(chunk)
+                        self.wfile.flush()
+                        cur = end + 1
+                    if conn_close or (e is not None and sent != e - s + 1):
+                        self.close_connection = True
+                except (BrokenPipeError, ConnectionResetError, OSError):
+                    self.close_connection = True
+                except Exception as ex:
+                    outer._log('HDLEXC %s' % str(ex)[:120])
                     try:
                         self.send_error(500)
                     except Exception:
@@ -232,43 +253,86 @@ class Spider(_Base):
             except Exception:
                 continue
 
-    def getName(self):
-        return "海角爱"
-
-    def getDependence(self):
-        return []
-
-    def destroy(self):
-        pass
-
-    def isVideoFormat(self, url):
-        return bool(url and ('.fd' in url or '.m3u8' in url or '.mp4' in url))
-
-    def manualVideoCheck(self):
-        return False
-
-    def action(self, action):
-        return ''
+    # ---------------- FongMi localProxy 契约: 返回列表 ----------------
 
     def localProxy(self, param):
-        if isinstance(param, str) and param.startswith('{'):
-            try:
-                param = json.loads(param)
-            except Exception:
-                pass
-        if isinstance(param, dict) and param.get('do') == 'fd':
+        try:
+            if isinstance(param, str):
+                param = json.loads(param) if param.strip().startswith('{') else {}
+            if not isinstance(param, dict):
+                return None
             u = param.get('u', '')
             k = param.get('k', '')
-            s = param.get('s', '')
             if not u or not k:
                 return None
+            ref = param.get('r', '')
             try:
-                total = int(s) if s else 0
+                total = int(param.get('s') or 0) or 0
             except Exception:
                 total = 0
-            return {'code': 200, 'content': self._fd_stream(u, k, total),
-                    'headers': {'Content-Type': 'video/mp4'}}
-        return None
+            if not total:
+                total = self._upstream_size(u, ref)
+            rng = ''
+            for pk, pv in param.items():
+                if isinstance(pk, str) and pk.lower() == 'range' and pv:
+                    rng = pv
+                    break
+            s, e = 0, (total - 1) if total else None
+            m = re.match(r'bytes=(\d+)-(\d*)', rng) if rng else None
+            if m:
+                s = int(m.group(1))
+                if m.group(2):
+                    e2 = int(m.group(2))
+                    e = e2 if e is None else min(e, e2)
+            self._log('LPREQ %s (total=%d)' % (rng or '-', total))
+            if total and s >= total:
+                return [416, 'text/plain', b'range not satisfiable', {}, 0]
+            body = self._fetch_slice(u, k, ref, s, e)
+            hdrs = {'Accept-Ranges': 'bytes', 'Content-Type': 'video/mp4'}
+            if rng:
+                if total and e is not None:
+                    hdrs['Content-Range'] = 'bytes %d-%d/%d' % (s, e, total)
+                return [206, 'video/mp4', body, hdrs, 0]
+            return [200, 'video/mp4', body, hdrs, 0]
+        except Exception as ex:
+            self._log('LPERR %s' % str(ex)[:120])
+            return None
+
+    def _fetch_slice(self, u, k, ref, s, e):
+        key = hashlib.md5(k.encode()).hexdigest().encode()
+        iv = int.from_bytes(key[:16], 'big')
+        out = bytearray()
+        if s < ENCRYPT_HEAD:
+            a0 = s // 16 * 16
+            a1 = ENCRYPT_HEAD - 1 if (e is None or e >= ENCRYPT_HEAD - 1) else e
+            raw = self._http_get_bin(u, 'bytes=%d-%d' % (a0, a1), referer=ref)
+            if raw:
+                plain = _aes_ctr_decrypt(key, (iv + a0 // 16).to_bytes(16, 'big'), raw)
+                out += plain[s - a0:]
+        cur = max(s, ENCRYPT_HEAD)
+        while e is None or cur <= e:
+            end = e if (e is not None and e - cur < CHUNK) else cur + CHUNK - 1
+            chunk = self._http_get_bin(u, 'bytes=%d-%d' % (cur, end), referer=ref)
+            if not chunk:
+                break
+            out += chunk
+            cur = end + 1
+        return bytes(out)
+
+    # ---------------- 上游下载 ----------------
+
+    def _upstream_size(self, u, ref):
+        """Range 探测上游文件真实大小 (s 参数缺失时用)。"""
+        try:
+            hd, _body = self._raw_get(u, headers={'Range': 'bytes=0-0'}, timeout=15)
+            m = re.search(r'/(\d+)\s*$', hd.get('content-range', ''))
+            if m:
+                return int(m.group(1))
+            if not hd.get('content-range') and hd.get('content-length'):
+                return int(hd['content-length'])
+        except Exception:
+            pass
+        return 0
 
     def _log(self, msg):
         try:
@@ -277,65 +341,52 @@ class Spider(_Base):
         except Exception:
             pass
 
-    def _http_get_bin(self, url, rng=None, referer='https://v.haijiaolove.xyz/', timeout=30):
+    def _http_get_bin(self, url, rng=None, referer='', timeout=30, tries=3):
         p = urlparse(url)
         ctx = ssl.create_default_context()
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
         hdrs = dict(self.headers)
         hdrs['Host'] = p.netloc
-        hdrs['Referer'] = referer
+        # CDN 强校验 Referer: 必须是播放页域名 (abyssplayer), 不能写死 www/v 站
+        hdrs['Referer'] = referer or 'https://player.abyssplayer.com/'
         hdrs['Accept-Encoding'] = 'identity'
         if rng:
             hdrs['Range'] = rng
         req = 'GET %s HTTP/1.1\r\n%s\r\n\r\n' % (p.path + ('?' + p.query if p.query else ''),
                                                   '\r\n'.join('%s: %s' % (x, y) for x, y in hdrs.items()))
+        import time as _time
         data = b''
-        try:
-            with socket.create_connection((p.netloc, 443), timeout=timeout) as raw:
-                with ctx.wrap_socket(raw, server_hostname=p.netloc) as ss:
-                    ss.sendall(req.encode())
-                    while True:
-                        chunk = ss.recv(262144)
-                        if not chunk:
-                            break
-                        data += chunk
-            head, _, body = data.partition(b'\r\n\r\n')
-            if int(head.split(b' ')[1]) >= 400:
-                self._log('ERR %s %s -> %s' % (rng, url[:60], head.split(b' ')[1:2]))
-                return b''
-            if head.lower().find(b'transfer-encoding: chunked') >= 0:
-                body = self._unchunk(body)
-            if head.lower().find(b'content-encoding: gzip') >= 0:
-                body = gzip.decompress(body)
-            return body
-        except Exception as e:
-            self._log('NETERR %s %s -> %s' % (rng, url[:60], str(e)[:80]))
-            return b''
-
-    def _fd_stream(self, u, k, total):
-        key = hashlib.md5(k.encode()).hexdigest().encode()
-        iv = int.from_bytes(key[:16], 'big')
-        head = b''
-        try:
-            raw = self._http_get_bin(u, 'bytes=0-65535')
-            head = _aes_ctr_decrypt(key, key[:16], raw)
-            yield head
-        except Exception:
-            head = b''
-        off = 65536
-        while not total or off < total:
-            end = off + 1048576 - 1
-            if total and end >= total:
-                end = total - 1
+        for attempt in range(1, tries + 1):
             try:
-                chunk = self._http_get_bin(u, 'bytes=%d-%d' % (off, end))
-            except Exception:
-                break
-            if not chunk:
-                break
-            yield chunk
-            off = end + 1
+                with socket.create_connection((p.netloc, 443), timeout=timeout) as raw:
+                    with ctx.wrap_socket(raw, server_hostname=p.netloc) as ss:
+                        ss.sendall(req.encode())
+                        while True:
+                            chunk = ss.recv(262144)
+                            if not chunk:
+                                break
+                            data += chunk
+                head, _, body = data.partition(b'\r\n\r\n')
+                code = int(head.split(b' ')[1]) if head else 0
+                if code >= 400:
+                    self._log('ERR %s %s -> %d (try %d)' % (rng, url[:60], code, attempt))
+                    if attempt < tries:
+                        _time.sleep(0.6 * attempt)
+                        data = b''
+                        continue
+                    return b''
+                if head.lower().find(b'transfer-encoding: chunked') >= 0:
+                    body = self._unchunk(body)
+                if head.lower().find(b'content-encoding: gzip') >= 0:
+                    body = gzip.decompress(body)
+                return body
+            except Exception as e:
+                self._log('NETERR %s %s -> %s (try %d)' % (rng, url[:60], str(e)[:80], attempt))
+                data = b''
+                if attempt < tries:
+                    _time.sleep(0.6 * attempt)
+        return b''
 
     def _http_get(self, host, path, headers=None, timeout=15, redir=0, sni=None):
         ctx = ssl.create_default_context()
@@ -378,6 +429,27 @@ class Spider(_Base):
         except Exception:
             return ''
 
+    # ---------------- TVBox/FongMi 接口 ----------------
+
+    def getName(self):
+        return "海角爱"
+
+    def getDependence(self):
+        return []
+
+    def destroy(self):
+        # 保持回环代理存活, 避免重新加载站点时中断正在播放的流
+        pass
+
+    def isVideoFormat(self, url):
+        return bool(url and ('.fd' in url or '.m3u8' in url or '.mp4' in url))
+
+    def manualVideoCheck(self):
+        return False
+
+    def action(self, action):
+        return ''
+
     def homeContent(self, filter=False):
         return {"class": [{"type_id": k, "type_name": v} for k, v in CATEGORIES.items()], "filters": {}, "type": "影视", "list": []}
 
@@ -408,7 +480,6 @@ class Spider(_Base):
             i = j + 2 + sz + 2
         return bytes(out)
 
-
     def _raw_get(self, url, headers=None, timeout=20):
         p = urlparse(url)
         ctx = ssl.create_default_context()
@@ -420,7 +491,7 @@ class Spider(_Base):
         if headers:
             hdrs.update(headers)
         req = 'GET %s HTTP/1.1\r\n%s\r\n\r\n' % (p.path + ('?' + p.query if p.query else ''),
-                                                  '\r\n'.join('%s: %s' % (k, v) for k, v in hdrs.items()))
+                                                  '\r\n'.join('%s: %s' % (x, y) for x, y in hdrs.items()))
         data = b''
         try:
             with socket.create_connection((p.netloc, 443), timeout=timeout) as raw:
@@ -562,6 +633,16 @@ class Spider(_Base):
                         break
         return {"list": vods}
 
+    def _play_url(self, fu, fk, fs, ref):
+        """生成播放地址: 优先本地回环代理, 回落 FongMi 自带 proxy (do=py)。"""
+        q = 'u=%s&k=%s&s=%s&r=%s' % (quote(fu, safe=''), quote(fk, safe=''), fs, quote(ref, safe=''))
+        if self._port:
+            return {"parse": 0, "url": 'http://127.0.0.1:%d/fd?%s' % (self._port, q)}
+        try:
+            return {"parse": 0, "url": self.getProxyUrl() + '&' + q}
+        except Exception:
+            return {"parse": 0, "url": 'proxy://do=py&' + q}
+
     def playerContent(self, flag, id, vipFlags=None):
         u = id if id.startswith("http") else self.host + id
         u = u.split('#')[0]
@@ -580,31 +661,24 @@ class Spider(_Base):
                 text = self._get(src_url, headers={'Referer': 'https://www.haijiaolove.xyz/'})
                 j = _decrypt_datas(text)
                 mp4 = j.get('mp4', {}) or {}
-                srcs = mp4.get('sources') or []
                 use = None
-                for s0 in srcs:
+                for s0 in (mp4.get('sources') or []):
                     if s0.get('status') and s0.get('url') and s0.get('path'):
                         use = s0
                         break
+                if not use:
+                    fd = mp4.get('fristDatas') or []
+                    if fd and fd[0].get('url'):
+                        fu0 = fd[0]['url']
+                        use = {'url': fu0.rsplit('/', 1)[0], 'path': fu0.rsplit('/', 1)[-1],
+                               'size': fd[0].get('size') or 0}
                 if use:
                     fu = use['url'].rstrip('/') + '/' + use['path'].lstrip('/')
                     fk = use['path'].split('/')[-1]
                     fs = str(use.get('size') or 0)
-                    if self._port:
-                        return {"parse": 0, "url": "http://127.0.0.1:%d/fd?u=%s&k=%s&s=%s" % (
-                            self._port, quote(fu, safe=''), quote(fk, safe=''), fs)}
-                    return {"parse": 0, "url": "proxy://do=fd&u=%s&k=%s&s=%s" % (quote(fu, safe=''), quote(fk, safe=''), fs)}
-                fd = mp4.get('fristDatas') or []
-                if fd:
-                    fu = fd[0]['url']
-                    fk = fu.split('/')[-1]
-                    fs = str(fd[0].get('size') or 0)
-                    if self._port:
-                        return {"parse": 0, "url": "http://127.0.0.1:%d/fd?u=%s&k=%s&s=%s" % (
-                            self._port, quote(fu, safe=''), quote(fk, safe=''), fs)}
-                    return {"parse": 0, "url": "proxy://do=fd&u=%s&k=%s&s=%s" % (quote(fu, safe=''), quote(fk, safe=''), fs)}
-            except Exception:
-                pass
+                    return self._play_url(fu, fk, fs, src_url)
+            except Exception as ex:
+                self._log('PLAYERERR %s' % str(ex)[:120])
         return {"parse": 1, "url": u, "header": self.headers}
 
     def _pic_url(self, url):
