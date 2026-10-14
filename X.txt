@@ -5,16 +5,13 @@
 松视3台(挂梯),http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 奧視台亚洲,http://125.227.210.55:1022/VideoInput/play.ts
 奧視台欧美,http://125.227.210.55:3031/VideoInput/play.ts
-香蕉台亚洲,http://125.227.210.55:1009/VideoInput/play.ts
-香蕉台欧美,rtmp://112.29.121.74/live/易發TV-xjt
 惊艳台,rtmp://112.29.121.74/live/易發TV-jyt
-惊艳台HD,http://ctrl.yunshipin.bbroot.com:8080/streams/ds7fcf8th2/gc/playlist.m3u8
 惊艳台(挂梯),http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
 惊艳台HD(挂梯),http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
 潘多啦HD(挂梯),http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+香蕉台,rtmp://112.29.121.74/live/易發TV-xjt
+香蕉台亚洲,http://125.227.210.55:1009/VideoInput/play.ts
 香蕉台欧美(挂梯),http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/117.ts
-
-
 
 欧美频道,#genre#
 欧美版K频道,http://live.redtraffic.xyz:80/threesome.m3u8
@@ -95,3 +92,51 @@
 午夜时刻5,http://myott.tv/stream/S8JK2Q2BVB/183.m3u8
 午夜时刻7,http://live.mycamtv.com/asian.m3u8
 午夜时刻8,http://live.mycamtv.com/bigass.m3u8
+
+限时直播,#genre#
+松視1,http://77.90.15.78/YC20161015.php?id=1
+松視2,http://77.90.15.78/YC20161015.php?id=2
+松視3,http://77.90.15.78/YC20161015.php?id=3
+松視4,http://77.90.15.78/YC20161015.php?id=4
+驚艷臺,http://77.90.15.78/YC20161015.php?id=5
+潘朵拉完美,http://77.90.15.78/YC20161015.php?id=6
+潘朵拉粉紅,http://77.90.15.78/YC20161015.php?id=7
+香蕉臺,http://77.90.15.78/YC20161015.php?id=8
+Happy,http://77.90.15.78/YC20161015.php?id=9
+彩虹電影,http://77.90.15.78/YC20161015.php?id=10
+彩虹E,http://77.90.15.78/YC20161015.php?id=11
+彩虹R,http://77.90.15.78/YC20161015.php?id=12
+樂活頻道,http://77.90.15.78/YC20161015.php?id=13
+LOOK,http://77.90.15.78/YC20161015.php?id=14
+HOT,http://77.90.15.78/YC20161015.php?id=15
+HiPLAY,http://77.90.15.78/YC20161015.php?id=16
+極限電影,http://77.90.15.78/YC20161015.php?id=17
+麻豆傳媒,http://77.90.15.78/YC20161015.php?id=18
+奧視1,http://77.90.15.78/YC20161015.php?id=20
+奧視2,http://77.90.15.78/YC20161015.php?id=21
+奧視3,http://77.90.15.78/YC20161015.php?id=22
+風雲夜場1,http://77.90.15.78/YC20161015.php?id=23
+風雲夜場2,http://77.90.15.78/YC20161015.php?id=24
+風雲夜場3,http://77.90.15.78/YC20161015.php?id=25
+風雲夜場4,http://77.90.15.78/YC20161015.php?id=26
+風雲夜場5,http://77.90.15.78/YC20161015.php?id=27
+風雲夜場6,http://77.90.15.78/YC20161015.php?id=28
+風雲夜場7,http://77.90.15.78/YC20161015.php?id=29
+風雲夜場8,http://77.90.15.78/YC20161015.php?id=30
+風雲夜場9,http://77.90.15.78/YC20161015.php?id=31
+風雲夜場10,http://77.90.15.78/YC20161015.php?id=32
+風雲夜場11,http://77.90.15.78/YC20161015.php?id=33
+Babes TV,http://77.90.15.78/YC20161015.php?id=34
+Bang U,http://77.90.15.78/YC20161015.php?id=35
+Brazzers Europe,http://77.90.15.78/YC20161015.php?id=36
+Dorcel TV,http://77.90.15.78/YC20161015.php?id=37
+Dorcel XXX,http://77.90.15.78/YC20161015.php?id=38
+Dusk,http://77.90.15.78/YC20161015.php?id=39
+ERO X,http://77.90.15.78/YC20161015.php?id=40
+ERO XXX,http://77.90.15.78/YC20161015.php?id=41
+EXTASY TV,http://77.90.15.78/YC20161015.php?id=42
+LEO TV,http://77.90.15.78/YC20161015.php?id=43
+LEO TV GOLD,http://77.90.15.78/YC20161015.php?id=44
+Passion XXX,http://77.90.15.78/YC20161015.php?id=45
+Pure Babes,http://77.90.15.78/YC20161015.php?id=46
+Reality Kings TV,http://77.90.15.78/YC20161015.php?id=47
