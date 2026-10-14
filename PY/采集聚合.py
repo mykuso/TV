@@ -14,7 +14,7 @@ class Spider(Spider):
         's2': {'name': '💧无水印', 'api': 'https://api.wsyzy.net/api.php/provide/vod'},
         's3': {'name': '🧸量子', 'api': 'https://cj.lziapi.com/api.php/provide/vod'},
         's4': {'name': '📺1080资源', 'api': 'https://api.1080zyku.com/inc/api_mac10.php'},
-        's5': {'name': '🔥155资源', 'api': 'https://155api.com/api.php/provide/vod'},
+        's5': {'name': '📺大众资源', 'api': 'https://cdn.dzzyapi.com/api.php/provide/vod/'},
         's6': {'name': '📺天涯', 'api': 'https://tyyszy.com/api.php/provide/vod/'},
         's7': {'name': '📺暴风', 'api': 'https://bfzyapi.com/api.php/provide/vod/'},
         's8': {'name': '⚡索尼闪电', 'api': 'https://xsd.sdzyapi.com/api.php/provide/vod/'},
@@ -47,7 +47,6 @@ class Spider(Spider):
         's35': {'name': '📺西瓜资源', 'api': 'https://caiji.xgzyapi.com/api.php/provide/vod/'},
         's36': {'name': '📺98资源', 'api': 'https://98zy.vip/api.php/provide/vod/'},
         's37': {'name': '🦊火狐影视', 'api': 'https://hhzyapi.com/api.php/provide/vod/'},
-        's38': {'name': '📺大众资源', 'api': 'https://cdn.dzzyapi.com/api.php/provide/vod/'},
     }
 
     headers = {
