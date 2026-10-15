@@ -97,7 +97,7 @@ class Spider(BaseSpider):
 
         desc_match = re.search(r'<meta\s+name=["\']description["\']\s+content=["\']([^"\']+)["\']', role_html)
         raw_desc = desc_match.group(1).strip() if desc_match else ""
-        vod_content = "🦋 蝴蝶影视 独家呈现 | TG群: @tvshare23\n%s" % raw_desc
+        vod_content = "麻豆影院\n%s" % raw_desc
 
         real_play_url = "%s/index.php/vod/detail/id/%s.html" % (self.site_url, vod_id)
 
@@ -110,11 +110,11 @@ class Spider(BaseSpider):
                     "vod_type": "正片",
                     "vod_year": "2026",
                     "vod_area": "国产",
-                    "vod_remarks": "蝴蝶影视",
-                    "vod_actor": "🦋 TG群: @tvshare23",
-                    "vod_director": "🦋 蝴蝶影视",
+                    "vod_remarks": "麻豆影院",
+                    "vod_actor": "麻豆影院",
+                    "vod_director": "麻豆影院",
                     "vod_content": vod_content,
-                    "vod_play_from": "蝴蝶秒播",
+                    "vod_play_from": "麻豆秒播",
                     "vod_play_url": "正片$%s" % real_play_url
                 }
             ]
@@ -280,7 +280,7 @@ class Spider(BaseSpider):
                 "vod_id": vod_id,
                 "vod_name": clean_name,
                 "vod_pic": vod_pic,
-                "vod_remarks": "蝴蝶影视",
+                "vod_remarks": "麻豆影院",
                 "style": {"type": "rect", "ratio": 1.78}
             })
 
