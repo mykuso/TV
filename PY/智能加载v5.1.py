@@ -26,7 +26,7 @@ class Spider(Spider):
             "name": "智能加载",
             "key": "智能加载",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/智能加载v5.1.py"
+            "api": "https://g.blfrp.cn/https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/PY/智能加载v5.1.py"
       }
 	 }
     ]
