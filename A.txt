@@ -17,8 +17,6 @@ CCTV15,http://222.223.41.27:8888/hls/15/index.m3u8
 
 极速港台,#genre#
 翡翠台,https://cdn6.cc.cd/163189/fct
-翡翠台2,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
-翡翠台4K,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 TVB娱乐新闻台,https://cdn6.cc.cd/163189/ylxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
 TVB星河,https://cdn6.cc.cd/163189/tvbxh
@@ -559,4 +557,20 @@ Beyond精选40首(3小时),https://txmov2.a.kwimgs.com/upic/2024/01/24/14/BMjAyN
 黎明精选117首(8小时),https://tymov2.a.kwimgs.com/upic/2026/04/23/05/BMjAyNjA0MjMwNTExMzFfNDQzMTI2Mjg0XzE5Mzg0OTkzMzEwMF8yXzM=_b_Bad1fcf6e0ecc5709c93bf60638c65454.mp4
 王菲精选145首(10小时),https://tymov2.a.kwimgs.com/upic/2025/06/15/12/BMjAyNTA2MTUxMjQxMzBfNDQzMTI2Mjg0XzE2Njg4MDIxNDA2M18yXzM=_b_B291baabeaab840af0758f797d6b30862.mp4
 谭咏麟精选124首(8小时),https://tymov2.a.kwimgs.com/upic/2025/06/12/20/BMjAyNTA2MTIyMDIzMzlfNDQzMTI2Mjg0XzE2NjY1MDYzNDc1OF8yXzM=_b_B0bd6ebd8a66377f39dec750ce771810a.mp4
-
+周星星粤语电影~,http://nn.7x9d.cn/xz/虎牙.php?id=11336587
+超级英雄电影,http://nn.7x9d.cn/xz/虎牙.php?id=11352950
+哥斯拉,http://nn.7x9d.cn/xz/虎牙.php?id=29982674
+怪兽x异形,http://nn.7x9d.cn/xz/虎牙.php?id=21059577
+异形VS铁血战士,http://nn.7x9d.cn/xz/虎牙.php?id=11602047
+恺撒 金刚 哥斯拉,http://nn.7x9d.cn/xz/虎牙.php?id=11601965
+狄仁杰系列,http://nn.7x9d.cn/xz/虎牙.php?id=30080229
+巨石强森系列,http://nn.7x9d.cn/xz/虎牙.php?id=21059581
+DC宇宙,http://nn.7x9d.cn/xz/虎牙.php?id=11342428
+漫威电影,https://live.ottiptv.cc/yy/1354930233
+小鬼当家,https://live.ottiptv.cc/yy/1382745104
+复仇者联盟全季,https://live.ottiptv.cc/yy/1354936167
+侏罗纪世界,https://live.ottiptv.cc/yy/1382736851
+加勒比海盗系列,https://live.ottiptv.cc/yy/1382749914
+超炫科幻大片,https://live.ottiptv.cc/yy/1382736840
+碟中谍系列电影,https://live.ottiptv.cc/yy/1382736836
+仙逆动漫,https://live.ottiptv.cc/yy/23993334
