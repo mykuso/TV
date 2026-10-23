@@ -19,7 +19,6 @@ CCTV15,http://222.223.41.27:8888/hls/15/index.m3u8
 翡翠台,https://cdn6.cc.cd/163189/fct
 TVB娱乐新闻台,https://cdn6.cc.cd/163189/ylxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
-TVB星河,https://cdn6.cc.cd/163189/tvbxh
 TVB星河1,https://cdn3.indevs.in/stream/live/tvbxh/
 TVB星河2,https://10.fast.hidns.vip/163189/xinghe/
 翡翠剧集台,https://cdn6.cc.cd/163189/tvbd
@@ -41,34 +40,18 @@ NOW新闻台,https://fast.hidns.vip/163189/now
 NOW新闻台,http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 RTHK31,https://fast.hidns.vip/163189/rthk31
 RTHK32,https://fast.hidns.vip/163189/rthk32
-澳视澳门,https://cdn6.cc.cd/163189/asam
-澳视卫星,https://cdn6.cc.cd/163189/as
-澳门体育,https://cdn6.cc.cd/163189/amty
-澳门综艺,https://cdn6.cc.cd/163189/amzy
-澳门莲花,https://cdn6.cc.cd/163189/amlh
-重温经典,https://cdn6.cc.cd/163189/cwjd
 凤凰中文,https://cdn6.cc.cd/163189/fhzw
 凤凰中文2,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 凤凰资讯,https://cdn6.cc.cd/163189/fhzx
 凤凰香港,https://cdn6.cc.cd/163189/fhhk
-广东珠江,https://2.fast.hidns.vip/163189/gdzj
-广东珠江(备用),http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
-广东体育,https://2.fast.hidns.vip/163189/gdty
-广东体育(备用),http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+广东珠江,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 八度空间,https://cdn6.cc.cd/163189/8tv
 CH5,https://cdn6.cc.cd/163189/ch5
 CH8,https://cdn6.cc.cd/163189/ch8
 CHU,https://cdn6.cc.cd/163189/chu
-龙华电影,https://8.fast.hidns.vip/163189/lhdy
-龙华经典,https://8.fast.hidns.vip/163189/lhjd
-龙华偶像,https://8.fast.hidns.vip/163189/lhox
-龙华日韩,https://8.fast.hidns.vip/163189/lhrh
-龙华戏剧,https://8.fast.hidns.vip/163189/lhxj
-龙华洋片,https://8.fast.hidns.vip/163189/lhyp
-龙华卡通,https://8.fast.hidns.vip/163189/lhkt
 金光布袋戏,https://cdn3.indevs.in/stream/live/jgbdx/
-天映新加坡,https://10.fast.hidns.vip/163189/typd/
-天映经典,https://10.fast.hidns.vip/163189/ccm/
+金光布袋戏2,https://cdn12.178.indevs.in/163189/jgbdx
 华丽翡翠台,https://cdn3.indevs.in/stream/live/hlt/
 华丽翡翠台(硬字幕),https://cdn6.cc.cd/163189/jade
 华丽翡翠台(新加坡),https://cdn3.indevs.in/stream/live/jade/
@@ -80,61 +63,30 @@ Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
 天映频道,https://cdn3.indevs.in/stream/live/typd/
 天映经典,https://cdn3.indevs.in/stream/live/ccm/
 千禧经典台,https://cdn3.indevs.in/stream/live/tvbc/
-重温经典,https://168.sryze.cc/163189/cwjd
-五星体育,https://cdn15.163189.xyz/163189/wxty
-民视影剧台,https://cdn12.178.indevs.in/163189/msyj
-公视戏剧,https://cdn12.178.indevs.in/163189/gsxj
-采昌影剧台,https://cdn12.178.indevs.in/163189/ccyj
-靖天映画,https://cdn12.178.indevs.in/163189/jtyh
-靖天戏剧台,https://cdn12.178.indevs.in/163189/jtxj
-靖天电影台,https://cdn12.178.indevs.in/163189/jtdy
-靖洋戏剧台,https://cdn12.178.indevs.in/163189/jyxj
-影迷数位电影台,https://cdn12.178.indevs.in/163189/ymswdyt
-amc电影台,https://cdn12.178.indevs.in/163189/amc
-CinemaWorld,https://cdn12.178.indevs.in/163189/cinemaworld
-My Cinema Europe,https://cdn12.178.indevs.in/163189/mce
-经典电影台,https://cdn12.178.indevs.in/163189/jddyt
-CMusic,https://cdn12.178.indevs.in/163189/cmusic
-DreamWorks梦工厂动画,https://cdn12.178.indevs.in/163189/dreamworks
-精选动漫台,https://cdn12.178.indevs.in/163189/jxdmt
-金光布袋戏,https://cdn12.178.indevs.in/163189/jgbdx
+
+
 
 香港地面,#genre#
 
 翡翠台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fc-LMbEPJe5MloHcHvTs0DXowNztiTYo2GRWYiVFay2sAZ2aS0fGq5Kt0DDbOEz7DNrVLal4xICqjotPlDR.flv
+TVB Plus,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/tvb-5HV8DwEy7akF3TqlkhvqiG7Bm6K7HmnWwJ8hINaIemC2BULnG1ZujCfoE8c6AuHm7qWBcmzMfF7adMW6.flv
 凤凰香港台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-pfQICPKiV4U731Z1k4gwAPLKfPEUIDdeUedSzFdZYr86PbJWljfhTW7Z8Ag7Ko72iYLfXQ4vKvIcJFdu.flv
 凤凰资讯台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzx-lR9PJIgWTKkqxG30JzDoE7kx8hDmBCG5PRPdi3sEpkz2bYnGHiVXzgeRvsgtCJpNma2tOEBFVeHKbXyd.flv
 凤凰中文台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzw-JLSQd0HGiHW8D1wqNCfqBYXgtxAa6RjW4367c0JIz5SEWvxG6IZbvzY8cv7UVu11G27CxoDX3eGpuFFR.flv
 凤凰澳门,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/asam-72slNpB3YKieJl16U6kUJ6eV1ryY3vGoywX5YFhg57EnKULe244lasFRQ56yCYaoxtueQb7nHOgLGvw0iS4rt4.flv
-
 翡翠,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fc-LMbEPJe5MloHcHvTs0DXowNztiTYo2GRWYiVFay2sAZ2aS0fGq5Kt0DDbOEz7DNrVLal4xICqjotPlDR.flv
 无线新闻,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/wxxw-3KNpWhZ0lSaCroTIRf32AqSYbUwjAwyruHsc0KnmLY9yXhj7rXECcu39xKd5mFXyUsByfemjtbwjXDeC.flv
-
-
 明珠台(英语),https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-aPTLe8wju0pBb0EPZiT1wBoCkL566W82rJASM9YJ8gq8NNkXUO3JbqYgHWWbNGxaireDJpvw0d1PaFTU.flv
-
 明珠台(粤语),https://webdemo-pull.agora.io/live/MZ-kJ2waRHkby4fLrnb3YIPFZXUBaNn6ZRFakyHIV61Lpnmukq18HI7vIMfmwjAQ0AxkydAhLu1e1OO0tRU.flv
-TVB Plus,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/tvb-5HV8DwEy7akF3TqlkhvqiG7Bm6K7HmnWwJ8hINaIemC2BULnG1ZujCfoE8c6AuHm7qWBcmzMfF7adMW6.flv
 TVB精彩 http://getlive.cmts.citicbank.com/live/58wrpc3f6scpnndm.flv
 VIUTV,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu-WaLq7QU9ShukSHJr4y4T8i0dBsztO66q6niwBKsG86utDGp8t7H3cr1oB0VrNxkL9efg3iOLGlGf8AfS.flv
-
 VIUTV6,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu6-8gdcevMEDtjXMHhJXHP7ziGkkBezFqkpFtA72x8msWRDKvudDTC1VXpsTgqVF2DObATSVpEhjQjy9RnI.flv
-
-
 HOY76,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/76-oUvaxF7M45U9SmoSSOg3f66we7BLzbEeFQvxlraqoUVvZk2JQtFWJJAZ9lfo5QROX7APb6DjmR9Cr1EE.flv
-
 HOY77,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/77-UEX24z1szkkYW1MgvLHM2x3dzaLhlIRcGClmIhA2Sqwk3zfZ1Ib6qHLeUDAyzFqUGTbZeymM3aDDutDW.flv
-
 HOY78,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/78-kyg843KLeAipWh193dzAxvA5AaogPevepNR9XdaDz6BQMR18AW5zTd5uYuaSAsMJxRu9nw8mcMZJyoBG.flv
-
-
 RHK31,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/31-t3dXpPQBE2RGwPARFhA4lgzHa1tGDl5ULNc5eLXqCjIMTZL2dBLScrSBkxn70MqQ2nT3q9rHNxrZfKTN.flv
-
-
 RHK32,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/32-NcgxiJdK79z6JDloEM1ojXaKsUdHXDmy5XSFpBmqirgrMTUSQvIc85DXz9KHzJAjzxGS0nTCN8nRKKzv.flv
-
 RHK33,https://webdemo-pull.agora.io/live/RK33-qjqNjVQpUd7NrJHIfVZRmu6AXj4lwKsRIflLX0BMPBF62bFaiRP3ybVrMQtwi2S243E1BlBsa1cSwJZz.flv
-
 RHK34,https://webdemo-pull.agora.io/live/RK34-rhJLblZfxKzLZMVDfphRufEJ5Dw6pZeqXK8I3qzELtdcOz0HdDYPGyM5yxTzAGWv6ZMSDboEcrRN4Zoi.flv
 TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=24
 TVB翡翠(馬來),http://iptv.4666888.xyz/iptv2A.php?id=28
@@ -148,28 +100,6 @@ TVB-獎門人,http://iptv.4666888.xyz/iptv2A.php?id=31
 TVB-金曲,http://iptv.4666888.xyz/iptv2A.php?id=17
 RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
 TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33
-澳視澳門,http://iptv.4666888.xyz/iptv2A.php?id=19
-中國電影,http://iptv.4666888.xyz/iptv2A.php?id=18
-创世电视,http://iptv.4666888.xyz/iptv2A.php?id=20
-TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43
-民視,http://iptv.4666888.xyz/iptv2A.php?id=54
-靖天歡樂,http://iptv.4666888.xyz/iptv2A.php?id=37
-靖天卡通,http://iptv.4666888.xyz/iptv2A.php?id=42
-靖天电影,http://iptv.4666888.xyz/iptv2A.php?id=55
-MOMO親子,http://iptv.4666888.xyz/iptv2A.php?id=39
-MCE電影,http://iptv.4666888.xyz/iptv2A.php?id=40
-經典卡通,http://iptv.4666888.xyz/iptv2A.php?id=41
-車迷TV,http://iptv.4666888.xyz/iptv2A.php?id=44
-TV5MONDE,http://iptv.4666888.xyz/iptv2A.php?id=46
-幸福空間居家,http://iptv.4666888.xyz/iptv2A.php?id=47
-滾動力rollor,http://iptv.4666888.xyz/iptv2A.php?id=48
-時尚運動X,http://iptv.4666888.xyz/iptv2A.php?id=49
-GINX Esports TV,http://iptv.4666888.xyz/iptv2A.php?id=50
-Bloomberg TV,http://iptv.4666888.xyz/iptv2A.php?id=51
-愛奇藝,http://iptv.4666888.xyz/iptv2A.php?id=52
-龍華電影,http://iptv.4666888.xyz/iptv2A.php?id=56
-龍華洋片,http://iptv.4666888.xyz/iptv2A.php?id=57
-ELTV生活英語,http://iptv.4666888.xyz/iptv2A.php?id=58
 雷霆881,https://play.ynjtt.com/live/881-8HkfJGxnKFevRfzPl9hrtBPg5nPcGuGDF5Uw8OgMEKTql9CidgDgqF8UXdlrA5HXZBdpGBcKgIjUvCoVxq0rA65e.flv
 18台,http://meeting.lnrccdn.com/live/NjKftVLDFGbF2YHAXgasFlau4khb9Kz4xQAa8OwmxsdnUDjAzbHFlJeyCmFQT8M9fqL5sMc7dBwKydH9.flv
 
@@ -543,7 +473,7 @@ CETV4,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226724/1.m3u8
 兵团卫视,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226661/1.m3u8
 西藏卫视,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226710/1.m3u8
 
-歌手合集,#genre#
+歌曲电影,#genre#
 陈奕迅精选34首(2小时),https://txmov2.a.kwimgs.com/upic/2022/12/22/17/BMjAyMjEyMjIxNzM3NDNfMTg1NzcxNTYxOF85MTcyMjE1NDQzNV8yXzM=_b_B16479ab3769c6fcfed15a06b75c2656e.mp4
 陈慧琳精选30首(1小时),https://txmov2.a.kwimgs.com/upic/2025/02/09/20/BMjAyNTAyMDkyMDIzNTVfMTg1NzcxNTYxOF8xNTY0NDk2NjMzNTZfMl8z_b_Bd072695cb8d3a79a9d1ac8cdb5b3b3bc.mp4
 王杰精选30首(2小时),https://txmov2.a.kwimgs.com/upic/2020/09/06/17/BMjAyMDA5MDYxNzU1MjJfMTc4NDYxNDcyNl8zNTYyMjQ2ODIxNl8yXzM=_b_Bc35f6a28c8cf25ea947bc122c176b034.mp4
