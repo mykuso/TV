@@ -70,15 +70,14 @@ Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
 
 翡翠台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fc-LMbEPJe5MloHcHvTs0DXowNztiTYo2GRWYiVFay2sAZ2aS0fGq5Kt0DDbOEz7DNrVLal4xICqjotPlDR.flv
 TVB Plus,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/tvb-5HV8DwEy7akF3TqlkhvqiG7Bm6K7HmnWwJ8hINaIemC2BULnG1ZujCfoE8c6AuHm7qWBcmzMfF7adMW6.flv
-凤凰香港台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-pfQICPKiV4U731Z1k4gwAPLKfPEUIDdeUedSzFdZYr86PbJWljfhTW7Z8Ag7Ko72iYLfXQ4vKvIcJFdu.flv
-凤凰资讯台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzx-lR9PJIgWTKkqxG30JzDoE7kx8hDmBCG5PRPdi3sEpkz2bYnGHiVXzgeRvsgtCJpNma2tOEBFVeHKbXyd.flv
-凤凰中文台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzw-JLSQd0HGiHW8D1wqNCfqBYXgtxAa6RjW4367c0JIz5SEWvxG6IZbvzY8cv7UVu11G27CxoDX3eGpuFFR.flv
-凤凰澳门,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/asam-72slNpB3YKieJl16U6kUJ6eV1ryY3vGoywX5YFhg57EnKULe244lasFRQ56yCYaoxtueQb7nHOgLGvw0iS4rt4.flv
-翡翠,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fc-LMbEPJe5MloHcHvTs0DXowNztiTYo2GRWYiVFay2sAZ2aS0fGq5Kt0DDbOEz7DNrVLal4xICqjotPlDR.flv
 无线新闻,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/wxxw-3KNpWhZ0lSaCroTIRf32AqSYbUwjAwyruHsc0KnmLY9yXhj7rXECcu39xKd5mFXyUsByfemjtbwjXDeC.flv
 明珠台(英语),https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-aPTLe8wju0pBb0EPZiT1wBoCkL566W82rJASM9YJ8gq8NNkXUO3JbqYgHWWbNGxaireDJpvw0d1PaFTU.flv
 明珠台(粤语),https://webdemo-pull.agora.io/live/MZ-kJ2waRHkby4fLrnb3YIPFZXUBaNn6ZRFakyHIV61Lpnmukq18HI7vIMfmwjAQ0AxkydAhLu1e1OO0tRU.flv
 TVB精彩 http://getlive.cmts.citicbank.com/live/58wrpc3f6scpnndm.flv
+凤凰香港台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-pfQICPKiV4U731Z1k4gwAPLKfPEUIDdeUedSzFdZYr86PbJWljfhTW7Z8Ag7Ko72iYLfXQ4vKvIcJFdu.flv
+凤凰资讯台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzx-lR9PJIgWTKkqxG30JzDoE7kx8hDmBCG5PRPdi3sEpkz2bYnGHiVXzgeRvsgtCJpNma2tOEBFVeHKbXyd.flv
+凤凰中文台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzw-JLSQd0HGiHW8D1wqNCfqBYXgtxAa6RjW4367c0JIz5SEWvxG6IZbvzY8cv7UVu11G27CxoDX3eGpuFFR.flv
+凤凰澳门,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/asam-72slNpB3YKieJl16U6kUJ6eV1ryY3vGoywX5YFhg57EnKULe244lasFRQ56yCYaoxtueQb7nHOgLGvw0iS4rt4.flv
 VIUTV,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu-WaLq7QU9ShukSHJr4y4T8i0dBsztO66q6niwBKsG86utDGp8t7H3cr1oB0VrNxkL9efg3iOLGlGf8AfS.flv
 VIUTV6,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu6-8gdcevMEDtjXMHhJXHP7ziGkkBezFqkpFtA72x8msWRDKvudDTC1VXpsTgqVF2DObATSVpEhjQjy9RnI.flv
 HOY76,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/76-oUvaxF7M45U9SmoSSOg3f66we7BLzbEeFQvxlraqoUVvZk2JQtFWJJAZ9lfo5QROX7APb6DjmR9Cr1EE.flv
