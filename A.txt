@@ -73,7 +73,6 @@ TVB Plus,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/tvb-5HV8DwEy7akF3Tqlkhvq
 无线新闻,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/wxxw-3KNpWhZ0lSaCroTIRf32AqSYbUwjAwyruHsc0KnmLY9yXhj7rXECcu39xKd5mFXyUsByfemjtbwjXDeC.flv
 明珠台(英语),https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-aPTLe8wju0pBb0EPZiT1wBoCkL566W82rJASM9YJ8gq8NNkXUO3JbqYgHWWbNGxaireDJpvw0d1PaFTU.flv
 明珠台(粤语),https://webdemo-pull.agora.io/live/MZ-kJ2waRHkby4fLrnb3YIPFZXUBaNn6ZRFakyHIV61Lpnmukq18HI7vIMfmwjAQ0AxkydAhLu1e1OO0tRU.flv
-TVB精彩 http://getlive.cmts.citicbank.com/live/58wrpc3f6scpnndm.flv
 凤凰香港台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhxg-pfQICPKiV4U731Z1k4gwAPLKfPEUIDdeUedSzFdZYr86PbJWljfhTW7Z8Ag7Ko72iYLfXQ4vKvIcJFdu.flv
 凤凰资讯台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzx-lR9PJIgWTKkqxG30JzDoE7kx8hDmBCG5PRPdi3sEpkz2bYnGHiVXzgeRvsgtCJpNma2tOEBFVeHKbXyd.flv
 凤凰中文台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fhzw-JLSQd0HGiHW8D1wqNCfqBYXgtxAa6RjW4367c0JIz5SEWvxG6IZbvzY8cv7UVu11G27CxoDX3eGpuFFR.flv
@@ -87,18 +86,6 @@ RHK31,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/31-t3dXpPQBE2RGwPARFhA4lgzH
 RHK32,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/32-NcgxiJdK79z6JDloEM1ojXaKsUdHXDmy5XSFpBmqirgrMTUSQvIc85DXz9KHzJAjzxGS0nTCN8nRKKzv.flv
 RHK33,https://webdemo-pull.agora.io/live/RK33-qjqNjVQpUd7NrJHIfVZRmu6AXj4lwKsRIflLX0BMPBF62bFaiRP3ybVrMQtwi2S243E1BlBsa1cSwJZz.flv
 RHK34,https://webdemo-pull.agora.io/live/RK34-rhJLblZfxKzLZMVDfphRufEJ5Dw6pZeqXK8I3qzELtdcOz0HdDYPGyM5yxTzAGWv6ZMSDboEcrRN4Zoi.flv
-TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=24
-TVB翡翠(馬來),http://iptv.4666888.xyz/iptv2A.php?id=28
-TVB明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
-TVB生活,http://iptv.4666888.xyz/iptv2A.php?id=11
-TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
-TVB1,http://iptv.4666888.xyz/iptv2A.php?id=25
-千禧經典,http://iptv.4666888.xyz/iptv2A.php?id=22
-HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
-TVB-獎門人,http://iptv.4666888.xyz/iptv2A.php?id=31
-TVB-金曲,http://iptv.4666888.xyz/iptv2A.php?id=17
-RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
-TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33
 雷霆881,https://play.ynjtt.com/live/881-8HkfJGxnKFevRfzPl9hrtBPg5nPcGuGDF5Uw8OgMEKTql9CidgDgqF8UXdlrA5HXZBdpGBcKgIjUvCoVxq0rA65e.flv
 18台,http://meeting.lnrccdn.com/live/NjKftVLDFGbF2YHAXgasFlau4khb9Kz4xQAa8OwmxsdnUDjAzbHFlJeyCmFQT8M9fqL5sMc7dBwKydH9.flv
 
