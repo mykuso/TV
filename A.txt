@@ -65,7 +65,6 @@ Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
 千禧经典台,https://cdn3.indevs.in/stream/live/tvbc/
 
 
-
 香港地面,#genre#
 
 翡翠台,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/fc-LMbEPJe5MloHcHvTs0DXowNztiTYo2GRWYiVFay2sAZ2aS0fGq5Kt0DDbOEz7DNrVLal4xICqjotPlDR.flv
@@ -88,8 +87,6 @@ RHK33,https://webdemo-pull.agora.io/live/RK33-qjqNjVQpUd7NrJHIfVZRmu6AXj4lwKsRIf
 RHK34,https://webdemo-pull.agora.io/live/RK34-rhJLblZfxKzLZMVDfphRufEJ5Dw6pZeqXK8I3qzELtdcOz0HdDYPGyM5yxTzAGWv6ZMSDboEcrRN4Zoi.flv
 雷霆881,https://play.ynjtt.com/live/881-8HkfJGxnKFevRfzPl9hrtBPg5nPcGuGDF5Uw8OgMEKTql9CidgDgqF8UXdlrA5HXZBdpGBcKgIjUvCoVxq0rA65e.flv
 18台,http://meeting.lnrccdn.com/live/NjKftVLDFGbF2YHAXgasFlau4khb9Kz4xQAa8OwmxsdnUDjAzbHFlJeyCmFQT8M9fqL5sMc7dBwKydH9.flv
-
-
 
 
 广东电信(内网),#genre#
