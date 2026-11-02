@@ -19,8 +19,9 @@ CCTV15,http://222.223.41.27:8888/hls/15/index.m3u8
 翡翠台,https://fcheck-stream-pull-test.wpscdn.cn/live/FC-BvLLP1S3bOvijFKQQX9kxGMapfVZKRG9zyy5nmAAlvBB5Q8UlJdzFxCQ5eIwDGmkWBdRsfy709Fb5zNi.flv
 TVBplus,https://fcheck-stream-pull-test.wpscdn.cn/live/TVB-JLdVxdMMw9riqtylSg9MkfkAFHsSatI3Jwu2JURABxy6wpeVPoE0RpE8XSICpS55ZJJbFsuCcyhOk0ic.flv
 无线新闻台,https://fcheck-stream-pull-test.wpscdn.cn/live/WX-iVDCqjRV6K97cwYylZXETIhLYoOZ1921faIA5xq1UiJnOyzht65zefiamEnUxyYTrKlx7ofZo5JQIoVq.flv
-无线明珠台英语,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-mddei9SE4s0zj8HEbn8tBnrtWDU9zjgfHU6JcWXOfwluNR2MDkSZeCXZBOupjnnWB5k1TvFWJChkJbq6.flv
-无线明珠粤语,https://fcheck-stream-pull-test.wpscdn.cn/live/MZ-RNt0JI7hKDpexwEeuLwbSM79gbjNLoSP8Vh42CCzxLTWEFzooMBAklJTKa5V0WDTNy8jQnFCUgTKLHSL.flv
+TVB星河频道,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/13-zHofbBNAvy3M7OMCFy1bN5zB5QfW2nxwgNfINs4PnKKXghXZPrvXsctYOI0WUnCW4TOyR0zPo7ci724Gg4kqNP.flv
+无线明珠台字幕,https://pull-mpeg-hs-cny-f5.douyincdn.com/live/mz-mddei9SE4s0zj8HEbn8tBnrtWDU9zjgfHU6JcWXOfwluNR2MDkSZeCXZBOupjnnWB5k1TvFWJChkJbq6.flv
+无线明珠台,https://fcheck-stream-pull-test.wpscdn.cn/live/MZ-RNt0JI7hKDpexwEeuLwbSM79gbjNLoSP8Vh42CCzxLTWEFzooMBAklJTKa5V0WDTNy8jQnFCUgTKLHSL.flv
 香港有线18台,http://meeting.lnrccdn.com/live/NjKftVLDFGbF2YHAXgasFlau4khb9Kz4xQAa8OwmxsdnUDjAzbHFlJeyCmFQT8M9fqL5sMc7dBwKydH9.flv
 TVB18台,http://meeting.lnrccdn.com/live/UnwNCix7ljQLQlCNvQtMfE2xPdNzYeSlbmVw8Qs6QUp985cCF5xgoiWz0ACvodOE8h6Hnjj5xBvSjnYY.flv
 HOY76台,https://fcheck-stream-pull-test.wpscdn.cn/live/HOY76-YkDHclXTJ309FPrnZcbdw1IZ1jH06sMiaONsLMyySC0kPA0kArd8UWAHDZZuHJWVHO1tedcuOo2xn20m.flv
