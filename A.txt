@@ -16,40 +16,51 @@ CCTV14,http://222.223.41.27:8888/hls/14/index.m3u8
 CCTV15,http://222.223.41.27:8888/hls/15/index.m3u8
 
 极速港台,#genre#
-翡翠台,https://cdn6.cc.cd/163189/fct
-TVB娱乐新闻台,https://cdn6.cc.cd/163189/ylxw
-无线新闻台,https://cdn6.cc.cd/163189/wxxwt
-TVB星河1,https://cdn3.indevs.in/stream/live/tvbxh/
-TVB星河2,https://10.fast.hidns.vip/163189/xinghe/
-翡翠剧集台,https://cdn6.cc.cd/163189/tvbd
-华丽翡翠台,https://cdn6.cc.cd/163189/hlfct
-TVB亚洲武侠,https://cdn6.cc.cd/163189/yzwx
-翡翠台(字幕),https://cdn3.indevs.in/stream/tvb/fct/
-明珠台(字幕),https://cdn3.indevs.in/stream/tvb/mzt/
-TVB Plus(字幕),https://cdn3.indevs.in/stream/tvb/tvbp/
-翡翠台4K(字幕),https://cdn3.indevs.in/stream/tvb/fct4k/
-TVB1,https://cdn6.cc.cd/163189/tvb1
-TVBJ1,https://cdn6.cc.cd/163189/j1
-HOY TV,https://cdn6.cc.cd/163189/hoy
-HOY TV,https://fast.hidns.vip/163189/hoy
-HOY资讯台,https://fast.hidns.vip/163189/hoy78
-HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
-ViuTV,https://10.fast.hidns.vip/163189/viu/
-ViuTVsix,https://10.fast.hidns.vip/163189/viu6/
-NOW新闻台,https://fast.hidns.vip/163189/now
-RTHK31,https://fast.hidns.vip/163189/rthk31
-RTHK32,https://fast.hidns.vip/163189/rthk32
-凤凰中文,https://cdn6.cc.cd/163189/fhzw
-凤凰中文2,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-凤凰资讯,https://cdn6.cc.cd/163189/fhzx
-凤凰香港,https://cdn6.cc.cd/163189/fhhk
-八度空间,https://cdn6.cc.cd/163189/8tv
-CH5,https://cdn6.cc.cd/163189/ch5
-CH8,https://cdn6.cc.cd/163189/ch8
-CHU,https://cdn6.cc.cd/163189/chu
-金光布袋戏,https://cdn12.178.indevs.in/163189/jgbdx
-华丽翡翠台(硬字幕),https://cdn6.cc.cd/163189/jade
-华丽翡翠台(新加坡),https://cdn3.indevs.in/stream/live/jade/
+翡翠台,https://cdn.qd.je/163189/fct
+无线新闻台,https://cdn.qd.je/163189/wxxw
+华丽翡翠台,https://cdn.qd.je/163189/jade
+TVB星河,https://cdn.qd.je/163189/xinghe
+TVB1,https://cdn.qd.je/163189/tvb1
+TVBj1,https://cdn.qd.je/163189/j1
+翡翠剧集台,https://cdn.qd.je/163189/tvbd
+HOY TV,https://cdn.qd.je/163189/hoy
+HOY TV,https://cdn.qd.je/163189/hoy2
+HOY资讯台,https://cdn.qd.je/163189/hoy78
+HOY国际财经台,https://cdn.qd.je/163189/hoy76
+ViuTV,https://cdn.qd.je/163189/viu
+ViuTVsix,https://cdn.qd.je/163189/viu6
+NOW新闻台,https://cdn.qd.je/163189/now
+RTHK31,https://cdn.qd.je/163189/rthk31
+RTHK32,https://cdn.qd.je/163189/rthk32
+澳视澳门,https://cdn.qd.je/163189/asam
+澳视卫星,https://cdn.qd.je/163189/as
+澳门体育,https://cdn.qd.je/163189/amty
+澳门综艺,https://cdn.qd.je/163189/amzy
+澳门莲花,https://cdn.qd.je/163189/amlh
+重温经典,https://cdn.qd.je/163189/cwjd
+凤凰中文,https://cdn.qd.je/163189/fhzw
+凤凰资讯,https://cdn.qd.je/163189/fhzx
+凤凰香港,https://cdn.qd.je/163189/fhhk
+广东珠江,https://cdn.qd.je/163189/gdzj
+广东体育,https://cdn.qd.je/163189/gdty
+八度空间,https://cdn.qd.je/163189/8tv
+CH5,https://cdn.qd.je/163189/ch5
+CH8,https://cdn.qd.je/163189/ch8
+CHU,https://cdn.qd.je/163189/chu
+龙华电影,https://cdn.qd.je/163189/lhdy
+龙华经典,https://cdn.qd.je/163189/lhjd
+龙华偶像,https://cdn.qd.je/163189/lhox
+龙华日韩,https://cdn.qd.je/163189/lhrh
+龙华戏剧,https://cdn.qd.je/163189/lhxj
+龙华洋片,https://cdn.qd.je/163189/lhyp
+龙华卡通,https://cdn.qd.je/163189/lhkt
+金光布袋戏,https://cdn.qd.je/163189/jgbdx
+亚洲武侠,https://cdn.qd.je/163189/yzwx
+天映频道,https://cdn.qd.je/163189/typd
+天映经典,https://cdn.qd.je/163189/ccm
+海峡卫视,https://cdn.qd.je/163189/hxws
+海峡卫视,https://cdn.qd.je/163189/hxws2
+
 
 香港频道,#genre#
 翡翠台,https://fcheck-stream-pull-test.wpscdn.cn/live/FC-BvLLP1S3bOvijFKQQX9kxGMapfVZKRG9zyy5nmAAlvBB5Q8UlJdzFxCQ5eIwDGmkWBdRsfy709Fb5zNi.flv
