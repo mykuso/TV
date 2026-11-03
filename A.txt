@@ -38,6 +38,43 @@ VIUTV，https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu-1WpQedL8WJaZKhj2PONLC
 VIUTV6，https://pull-mpeg-hs-cny-f5.douyincdn.com/live/viu6-hDt1OMH7VGtvhYO39p86RuMntEEDXeKseoGXcbsrDLgRAhg2K6IYmsbZ5GcJvCAIyEVQf6DPxLINnCF6.flv
 雷霆881,https://play.ynjtt.com/live/881-8HkfJGxnKFevRfzPl9hrtBPg5nPcGuGDF5Uw8OgMEKTql9CidgDgqF8UXdlrA5HXZBdpGBcKgIjUvCoVxq0rA65e.flv
 
+香港经典,#genre#
+千禧经典,http://iptv.4666888.xyz/iptv2A.php?id=22
+TVB黃金華劇,http://iptv.4666888.xyz/iptv2A.php?id=24
+TVB翡翠(馬來),http://iptv.4666888.xyz/iptv2A.php?id=28
+TVB明珠,http://iptv.4666888.xyz/iptv2A.php?id=29
+TVB生活,http://iptv.4666888.xyz/iptv2A.php?id=11
+TVBJ1,http://iptv.4666888.xyz/iptv2A.php?id=26
+TVB1,http://iptv.4666888.xyz/iptv2A.php?id=25
+千禧經典,http://iptv.4666888.xyz/iptv2A.php?id=22
+HOY77,http://iptv.4666888.xyz/iptv2A.php?id=35
+TVB-獎門人,http://iptv.4666888.xyz/iptv2A.php?id=31
+TVB-金曲,http://iptv.4666888.xyz/iptv2A.php?id=17
+RTHK31,http://iptv.4666888.xyz/iptv2A.php?id=23
+TVB翡翠劇集,http://iptv.4666888.xyz/iptv2A.php?id=33
+澳視澳門,http://iptv.4666888.xyz/iptv2A.php?id=19
+中國電影,http://iptv.4666888.xyz/iptv2A.php?id=18
+创世电视,http://iptv.4666888.xyz/iptv2A.php?id=20
+TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43
+民視,http://iptv.4666888.xyz/iptv2A.php?id=54
+靖天歡樂,http://iptv.4666888.xyz/iptv2A.php?id=37
+靖天卡通,http://iptv.4666888.xyz/iptv2A.php?id=42
+靖天电影,http://iptv.4666888.xyz/iptv2A.php?id=55
+MOMO親子,http://iptv.4666888.xyz/iptv2A.php?id=39
+MCE電影,http://iptv.4666888.xyz/iptv2A.php?id=40
+經典卡通,http://iptv.4666888.xyz/iptv2A.php?id=41
+車迷TV,http://iptv.4666888.xyz/iptv2A.php?id=44
+TV5MONDE,http://iptv.4666888.xyz/iptv2A.php?id=46
+幸福空間居家,http://iptv.4666888.xyz/iptv2A.php?id=47
+滾動力rollor,http://iptv.4666888.xyz/iptv2A.php?id=48
+時尚運動X,http://iptv.4666888.xyz/iptv2A.php?id=49
+GINX Esports TV,http://iptv.4666888.xyz/iptv2A.php?id=50
+Bloomberg TV,http://iptv.4666888.xyz/iptv2A.php?id=51
+愛奇藝,http://iptv.4666888.xyz/iptv2A.php?id=52
+龍華電影,http://iptv.4666888.xyz/iptv2A.php?id=56
+龍華洋片,http://iptv.4666888.xyz/iptv2A.php?id=57
+ELTV生活英語,http://iptv.4666888.xyz/iptv2A.php?id=58
+
 
 广东电信(内网),#genre#
 CCTV1综合超清,rtsp://183.59.56.116:554/PLTV/88888905/224/3221227610/10000100000000060000000004462931_0.smil?0&accountinfo=%7E%7EV2.0%7EjrJOUmzk157kD2TdQGpdFA%7EzJeEdQQK6GK7r2Q5jZjxjKYhZiHklGs8wg1XyXUSKdk5d8f2s2AYjzO2-qcyDeaExan3Pra4cuU_Whoju6BKGf666OGX7-GKwJrfpZjwyfM~ExtInfoWNHSPSTb+3AG0FnUkYLPMw=-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2CEND&GuardEncType=2
