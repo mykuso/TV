@@ -15,6 +15,15 @@ CCTV13,http://222.223.41.27:8888/hls/13/index.m3u8
 CCTV14,http://222.223.41.27:8888/hls/14/index.m3u8
 CCTV15,http://222.223.41.27:8888/hls/15/index.m3u8
 
+香港新闻,#genre#
+無綫新聞台, https://95.ru8.dpdns.org/l/ashvtmKVYudDFYjdbQh3raAF4QQ09o0uWuP9HCmwfLItVLM986O7FpeaCY00Qxlf/index.m3u8
+Now新聞台,https://95.ru8.dpdns.org/l/MGCxBIKU1yoq1GvOemZNi62AZtReE-p6km1ZkGV65pHHFswmekRSGxUPfkvXK7-C/index.m3u8
+HOY資訊台,https://95.ru8.dpdns.org/l/Jajg4vZgfbaC_JDBlHl1RFTt1ENEAeZjOh5FQqaXvptkKs_zHk2z4VUzr956tKup/index.m3u8
+港台電視32,https://95.ru8.dpdns.org/l/6W5KubGsztM2Qqo7DBO51F1r4-Ytcv9_INeM1SKg4tr9rmWF5Qnm9zhk-354-hkG/index.m3u8
+雷霆881,https://95.ru8.dpdns.org/l/15OXmQQ47j3bY9o3Cu1FmwS7tb751bPfAkhx9RqTWxhBb2LV-tKYLT2vrR1r8VOn/index.m3u8
+叱咤903,https://95.ru8.dpdns.org/l/vOi4x3VNPbGWgN8uWlk890LxINsNPRl9j7TnZSF8a_dRD3njt4aqRGmUAvR_iOVt/index.m3u8
+闊達864,https://95.ru8.dpdns.org/l/Ah8tSg9gIFLM2u8kWex9imPTAGhMXXZzfG8QuTGY9wm7M9-MqUuAM4mnVpdy9kxK/index.m3u8
+
 极速港台,#genre#
 翡翠台,https://cdn.qd.je/163189/fct
 无线新闻台,https://cdn.qd.je/163189/wxxw
