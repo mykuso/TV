@@ -34,7 +34,7 @@ class Spider(Spider):
       "type": 3,
       "api": "csp_SecureDanmu",
       "searchable": 1,
-      "jar": "https://raw.githubusercontent.com/goodcommunication/mydm/main/danmu-spider-native.jar",
+      "jar": "https://raw.githubusercontent.com/mykuso/TV/refs/heads/main/jar/danmu-spider-native.jar",
       "ext": {
         "apiUrls": [
           "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源",
